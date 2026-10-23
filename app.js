@@ -4,11 +4,10 @@ const levels=["Easy","Medium","Hard","Impossible","Music God"];
 const levelHints=["most popular","popular hits","challenging","hardest hits","rare picks"];
 function readJson(key,fallback){try{return JSON.parse(localStorage.getItem(key))??fallback}catch(error){return fallback}}
 
-// Clear old stored progress on reload so the game starts from level Easy
+// Clear old stored streak on reload so the game starts from level Easy, but PRESERVE played song history (anti-repetition for 30+ rounds)
 localStorage.removeItem("tebakProgressV2");
 localStorage.removeItem("tebakLevelViral");
 localStorage.removeItem("tebakSolved");
-localStorage.removeItem("tebakRecentSongs");
 
 const savedFilters=readJson("tebakFilters",{});
 if(["all","Pop","Rock","Electronic","Hip-Hop/Rap","R&B/Soul","Alternative","Latin"].includes(savedFilters.genre))$("genreSelect").value=savedFilters.genre;
@@ -35,7 +34,7 @@ const state={
   playingListener:null,
   requestId:0,
   failedIds:new Set(),
-  recentIds:[]
+  recentIds:readJson("tebakRecentSongs",[])
 };
 
 function saveProgress(){/* session-based streak */}
@@ -171,9 +170,10 @@ async function nextSong(){
   state.year=$("yearSelect").value;
   
   const previewPool=state.catalog.filter(song=>(state.region==="all"||song.region===state.region)&&(state.genre==="all"||song.genre===state.genre)&&yearMatchesFilter(song.year,state.year));
-  if(previewPool.length>0&&state.recentIds.length>=previewPool.length-2){
-    state.recentIds=[];
-    localStorage.removeItem("tebakRecentSongs");
+  // Anti-repetisi kuat: jangan hapus riwayat kecuali seluruh lagu pada filter ini sudah pernah diputar
+  if(previewPool.length>0&&previewPool.every(song=>state.recentIds.includes(song.id))){
+    state.recentIds=state.recentIds.slice(-Math.max(1, Math.floor(previewPool.length / 2)));
+    localStorage.setItem("tebakRecentSongs",JSON.stringify(state.recentIds));
   }
   setFiltersEnabled(false);
   stopAudio();
@@ -221,7 +221,7 @@ async function nextSong(){
     state.locked=false;
     state.selected=null;
     $("cancelLoadingBtn").classList.add("hidden");
-    state.recentIds=state.recentIds.filter(id=>id!==playable.id).concat(playable.id).slice(-12);
+    state.recentIds=state.recentIds.filter(id=>id!==playable.id).concat(playable.id).slice(-35);
     localStorage.setItem("tebakRecentSongs",JSON.stringify(state.recentIds));
     $("startBtn").disabled=false;
     $("nextBtn").disabled=false;
@@ -297,10 +297,10 @@ function groupsForRegion(pool,level){
   const solved=new Set(state.solvedIds);
   const remaining=pool.filter(song=>!tierIds.has(song.id));
   const prioritized=songs=>[
-    shuffleSongs(songs.filter(song=>!solved.has(song.id)&&!recent.has(song.id))),
-    shuffleSongs(songs.filter(song=>!solved.has(song.id)&&recent.has(song.id))),
-    shuffleSongs(songs.filter(song=>solved.has(song.id)&&!recent.has(song.id))),
-    shuffleSongs(songs.filter(song=>solved.has(song.id)&&recent.has(song.id))),
+    shuffleSongs(songs.filter(song=>!recent.has(song.id)&&!solved.has(song.id))),
+    shuffleSongs(songs.filter(song=>!recent.has(song.id)&&solved.has(song.id))),
+    shuffleSongs(songs.filter(song=>recent.has(song.id)&&!solved.has(song.id))),
+    shuffleSongs(songs.filter(song=>recent.has(song.id)&&solved.has(song.id))),
   ];
   const main=prioritized(tier);
   if(level===levels.length-1)return main;

@@ -1746,5 +1746,621 @@
   {
     "title": "Die With A Smile",
     "artist": "Bruno Mars"
+  },
+  {
+    "title": "Goodbyes (feat. Young Thug)",
+    "artist": "Post Malone"
+  },
+  {
+    "title": "ROCKSTAR (feat. Roddy Ricch)",
+    "artist": "DaBaby"
+  },
+  {
+    "title": "God's Plan",
+    "artist": "Drake"
+  },
+  {
+    "title": "Nice For What",
+    "artist": "Drake"
+  },
+  {
+    "title": "Hurricane",
+    "artist": "Kanye West"
+  },
+  {
+    "title": "Leave The Door Open",
+    "artist": "Bruno Mars"
+  },
+  {
+    "title": "No Guidance (feat. Drake)",
+    "artist": "Chris Brown"
+  },
+  {
+    "title": "You Right",
+    "artist": "Doja Cat"
+  },
+  {
+    "title": "Take My Breath",
+    "artist": "The Weeknd"
+  },
+  {
+    "title": "Kiss Me More (feat. SZA)",
+    "artist": "Doja Cat"
+  },
+  {
+    "title": "I'm the One",
+    "artist": "DJ Khaled"
+  },
+  {
+    "title": "POPSTAR (feat. Drake)",
+    "artist": "DJ Khaled"
+  },
+  {
+    "title": "2002",
+    "artist": "Anne-Marie"
+  },
+  {
+    "title": "7 rings",
+    "artist": "Ariana Grande"
+  },
+  {
+    "title": "positions",
+    "artist": "Ariana Grande"
+  },
+  {
+    "title": "no tears left to cry",
+    "artist": "Ariana Grande"
+  },
+  {
+    "title": "Into You",
+    "artist": "Ariana Grande"
+  },
+  {
+    "title": "thank u, next",
+    "artist": "Ariana Grande"
+  },
+  {
+    "title": "Sweet but Psycho",
+    "artist": "Ava Max"
+  },
+  {
+    "title": "Kings & Queens",
+    "artist": "Ava Max"
+  },
+  {
+    "title": "Waiting For Love",
+    "artist": "Avicii"
+  },
+  {
+    "title": "More Than You Know",
+    "artist": "Axwell /\\ Ingrosso"
+  },
+  {
+    "title": "Therefore I Am",
+    "artist": "Billie Eilish"
+  },
+  {
+    "title": "Finesse - Remix",
+    "artist": "Bruno Mars"
+  },
+  {
+    "title": "Havana (feat. Young Thug)",
+    "artist": "Camila Cabello"
+  },
+  {
+    "title": "God is a woman",
+    "artist": "Ariana Grande"
+  },
+  {
+    "title": "breathin",
+    "artist": "Ariana Grande"
+  },
+  {
+    "title": "Side To Side",
+    "artist": "Ariana Grande"
+  },
+  {
+    "title": "Dangerous Woman",
+    "artist": "Ariana Grande"
+  },
+  {
+    "title": "Lonely Together",
+    "artist": "Avicii"
+  },
+  {
+    "title": "wish you were gay",
+    "artist": "Billie Eilish"
+  },
+  {
+    "title": "bury a friend",
+    "artist": "Billie Eilish"
+  },
+  {
+    "title": "Smokin Out The Window",
+    "artist": "Bruno Mars"
+  },
+  {
+    "title": "My Oh My (feat. DaBaby)",
+    "artist": "Camila Cabello"
+  },
+  {
+    "title": "Never Be the Same",
+    "artist": "Camila Cabello"
+  },
+  {
+    "title": "Don't Go Yet",
+    "artist": "Camila Cabello"
+  },
+  {
+    "title": "Levitating (feat. DaBaby)",
+    "artist": "Dua Lipa"
+  },
+  {
+    "title": "Streets",
+    "artist": "Doja Cat"
+  },
+  {
+    "title": "Candy",
+    "artist": "Doja Cat"
+  },
+  {
+    "title": "Wild Thoughts",
+    "artist": "DJ Khaled"
+  },
+  {
+    "title": "One Dance",
+    "artist": "Drake"
+  },
+  {
+    "title": "One Right Now",
+    "artist": "Post Malone"
+  },
+  {
+    "title": "One Kiss",
+    "artist": "Calvin Harris"
+  },
+  {
+    "title": "This Is What You Came For",
+    "artist": "Calvin Harris"
+  },
+  {
+    "title": "Promises",
+    "artist": "Calvin Harris"
+  },
+  {
+    "title": "How Deep Is Your Love",
+    "artist": "Calvin Harris"
+  },
+  {
+    "title": "Feels",
+    "artist": "Calvin Harris"
+  },
+  {
+    "title": "Rollin",
+    "artist": "Calvin Harris"
+  },
+  {
+    "title": "My Way",
+    "artist": "Calvin Harris"
+  },
+  {
+    "title": "Me, Myself & I",
+    "artist": "G-Eazy"
+  },
+  {
+    "title": "In the Name of Love",
+    "artist": "Martin Garrix"
+  },
+  {
+    "title": "Attention",
+    "artist": "Charlie Puth"
+  },
+  {
+    "title": "We Don't Talk Anymore",
+    "artist": "Charlie Puth"
+  },
+  {
+    "title": "How Long",
+    "artist": "Charlie Puth"
+  },
+  {
+    "title": "See You Again",
+    "artist": "Wiz Khalifa"
+  },
+  {
+    "title": "1999",
+    "artist": "Charli xcx"
+  },
+  {
+    "title": "My Universe",
+    "artist": "Coldplay"
+  },
+  {
+    "title": "Adventure of a Lifetime",
+    "artist": "Coldplay"
+  },
+  {
+    "title": "Moth To A Flame",
+    "artist": "Swedish House Mafia"
+  },
+  {
+    "title": "I Feel It Coming",
+    "artist": "The Weeknd"
+  },
+  {
+    "title": "Rockabye",
+    "artist": "Clean Bandit"
+  },
+  {
+    "title": "Symphony",
+    "artist": "Clean Bandit"
+  },
+  {
+    "title": "Solo",
+    "artist": "Clean Bandit"
+  },
+  {
+    "title": "Happier",
+    "artist": "Marshmello"
+  },
+  {
+    "title": "Come & Go",
+    "artist": "Juice WRLD"
+  },
+  {
+    "title": "Wolves",
+    "artist": "Selena Gomez"
+  },
+  {
+    "title": "Be Kind",
+    "artist": "Marshmello"
+  },
+  {
+    "title": "Let Me Love You",
+    "artist": "DJ Snake"
+  },
+  {
+    "title": "Lean On",
+    "artist": "Major Lazer"
+  },
+  {
+    "title": "Beautiful People",
+    "artist": "Ed Sheeran"
+  },
+  {
+    "title": "I Don't Care",
+    "artist": "Ed Sheeran"
+  },
+  {
+    "title": "Heartbreak Anthem",
+    "artist": "Galantis"
+  },
+  {
+    "title": "Runaway (U & I)",
+    "artist": "Galantis"
+  },
+  {
+    "title": "No Money",
+    "artist": "Galantis"
+  },
+  {
+    "title": "Heat Waves",
+    "artist": "Glass Animals"
+  },
+  {
+    "title": "Work from Home",
+    "artist": "Fifth Harmony"
+  },
+  {
+    "title": "Starving",
+    "artist": "Hailee Steinfeld"
+  },
+  {
+    "title": "Without Me",
+    "artist": "Halsey"
+  },
+  {
+    "title": "Closer",
+    "artist": "The Chainsmokers"
+  },
+  {
+    "title": "Believer",
+    "artist": "Imagine Dragons"
+  },
+  {
+    "title": "Natural",
+    "artist": "Imagine Dragons"
+  },
+  {
+    "title": "Say You Won't Let Go",
+    "artist": "James Arthur"
+  },
+  {
+    "title": "SLOW DANCING IN THE DARK",
+    "artist": "Joji"
+  },
+  {
+    "title": "Hold On",
+    "artist": "Justin Bieber"
+  },
+  {
+    "title": "Intentions",
+    "artist": "Justin Bieber"
+  },
+  {
+    "title": "Love Yourself",
+    "artist": "Nyx Studio"
+  },
+  {
+    "title": "Peaches",
+    "artist": "Justin Bieber"
+  },
+  {
+    "title": "Sorry",
+    "artist": "Justin Bieber"
+  },
+  {
+    "title": "STAY",
+    "artist": "The Kid LAROI"
+  },
+  {
+    "title": "What Do You Mean?",
+    "artist": "Justin Bieber"
+  },
+  {
+    "title": "All The Stars",
+    "artist": "Kendrick Lamar"
+  },
+  {
+    "title": "Young Dumb & Broke",
+    "artist": "Khalid"
+  },
+  {
+    "title": "Location",
+    "artist": "Khalid"
+  },
+  {
+    "title": "Higher Love",
+    "artist": "Kygo"
+  },
+  {
+    "title": "It Ain't Me",
+    "artist": "Kygo"
+  },
+  {
+    "title": "Someone You Loved",
+    "artist": "Lewis Capaldi"
+  },
+  {
+    "title": "Beggin'",
+    "artist": "Måneskin"
+  },
+  {
+    "title": "Memories",
+    "artist": "Maroon 5"
+  },
+  {
+    "title": "Girls Like You",
+    "artist": "Maroon 5"
+  },
+  {
+    "title": "Sugar",
+    "artist": "Maroon 5"
+  },
+  {
+    "title": "Scared to Be Lonely",
+    "artist": "Martin Garrix"
+  },
+  {
+    "title": "WAP",
+    "artist": "Cardi B"
+  },
+  {
+    "title": "High Hopes",
+    "artist": "Panic! At The Disco"
+  },
+  {
+    "title": "Needed Me",
+    "artist": "Rihanna"
+  },
+  {
+    "title": "Best Friend",
+    "artist": "Saweetie"
+  },
+  {
+    "title": "Dancing With A Stranger",
+    "artist": "Sam Smith"
+  },
+  {
+    "title": "Too Good At Goodbyes",
+    "artist": "Sam Smith"
+  },
+  {
+    "title": "Lose You To Love Me",
+    "artist": "Selena Gomez"
+  },
+  {
+    "title": "Taki Taki",
+    "artist": "DJ Snake"
+  },
+  {
+    "title": "There's Nothing Holdin' Me Back",
+    "artist": "Shawn Mendes"
+  },
+  {
+    "title": "august",
+    "artist": "Taylor Swift"
+  },
+  {
+    "title": "lovely",
+    "artist": "Billie Eilish"
+  },
+  {
+    "title": "Stressed Out",
+    "artist": "Twenty One Pilots"
+  },
+  {
+    "title": "Heathens",
+    "artist": "Twenty One Pilots"
+  },
+  {
+    "title": "Lover",
+    "artist": "Taylor Swift"
+  },
+  {
+    "title": "Look What You Made Me Do",
+    "artist": "Taylor Swift"
+  },
+  {
+    "title": "Dusk Till Dawn",
+    "artist": "ZAYN"
+  },
+  {
+    "title": "PILLOWTALK",
+    "artist": "ZAYN"
+  },
+  {
+    "title": "Lush Life",
+    "artist": "Zara Larsson"
+  },
+  {
+    "title": "Mood",
+    "artist": "24kGoldn"
+  },
+  {
+    "title": "Hotline Bling",
+    "artist": "Drake"
+  },
+  {
+    "title": "Thunder",
+    "artist": "Imagine Dragons"
+  },
+  {
+    "title": "The Business",
+    "artist": "Tiësto"
+  },
+  {
+    "title": "Heartbreak Anniversary",
+    "artist": "Giveon"
+  },
+  {
+    "title": "Goosebumps - Remix",
+    "artist": "Travis Scott"
+  },
+  {
+    "title": "Head & Heart",
+    "artist": "Joel Corry"
+  },
+  {
+    "title": "telepatía",
+    "artist": "Kali Uchis"
+  },
+  {
+    "title": "Heather",
+    "artist": "Conan Gray"
+  },
+  {
+    "title": "I'm Good (Blue)",
+    "artist": "David Guetta"
+  },
+  {
+    "title": "Unholy",
+    "artist": "Sam Smith"
+  },
+  {
+    "title": "Seven",
+    "artist": "JUNG KOOK"
+  },
+  {
+    "title": "greedy",
+    "artist": "Tate McRae"
+  },
+  {
+    "title": "Water",
+    "artist": "Tyla"
+  },
+  {
+    "title": "Lovin On Me",
+    "artist": "Jack Harlow"
+  },
+  {
+    "title": "Too Sweet",
+    "artist": "Hozier"
+  },
+  {
+    "title": "Not Like Us",
+    "artist": "Kendrick Lamar"
+  },
+  {
+    "title": "FE!N",
+    "artist": "Travis Scott"
+  },
+  {
+    "title": "fukumean",
+    "artist": "Gunna"
+  },
+  {
+    "title": "redrum",
+    "artist": "21 Savage"
+  },
+  {
+    "title": "Like That",
+    "artist": "Future"
+  },
+  {
+    "title": "Sprinter",
+    "artist": "Dave"
+  },
+  {
+    "title": "I KNOW ?",
+    "artist": "Travis Scott"
+  },
+  {
+    "title": "DÁKITI",
+    "artist": "Bad Bunny"
+  },
+  {
+    "title": "Tití Me Preguntó",
+    "artist": "Bad Bunny"
+  },
+  {
+    "title": "Me Porto Bonito",
+    "artist": "Bad Bunny"
+  },
+  {
+    "title": "MONACO",
+    "artist": "Bad Bunny"
+  },
+  {
+    "title": "TQG",
+    "artist": "KAROL G"
+  },
+  {
+    "title": "PROVENZA",
+    "artist": "KAROL G"
+  },
+  {
+    "title": "BICHOTA",
+    "artist": "KAROL G"
+  },
+  {
+    "title": "Todo De Ti",
+    "artist": "Rauw Alejandro"
+  },
+  {
+    "title": "BESO",
+    "artist": "ROSALÍA"
+  },
+  {
+    "title": "DESPECHÁ",
+    "artist": "ROSALÍA"
+  },
+  {
+    "title": "Te Felicito",
+    "artist": "Shakira"
+  },
+  {
+    "title": "Chantaje",
+    "artist": "Shakira"
   }
 ]
