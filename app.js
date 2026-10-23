@@ -218,12 +218,15 @@ async function nextSong(){
     $("genreTag").textContent=(state.current.genre||"MIX").toUpperCase();
     $("yearTag").textContent=String(state.current.year);
     $("playLabel").textContent="Play clip";
-    $("playHint").textContent="Press play to hear 0.1s, then unlock longer durations.";
+    $("playHint").textContent=state.level<=2?"Press play to hear the chorus (reff) clip, then unlock longer durations.":"Press play to hear the intro clip, then unlock longer durations.";
     $("playHint").classList.remove("done");
     $("playIcon").textContent="▶";
     $("audioCredit").href="https://www.deezer.com";
     $("audioCredit").classList.remove("hidden");
     state.audio.src=state.current.streamUrl;
+    state.audio.addEventListener("loadedmetadata",()=>{
+      try { state.audio.currentTime = getClipStartTime(); } catch(e) {}
+    },{once:true});
     $("clipDuration").textContent=formatClip(clipSeconds[0]);
     $("feedback").textContent="";
     $("answerInput").value="";
@@ -371,29 +374,79 @@ function tracksForLevel(pool,level){
   return ranked.slice(start,start+width);
 }
 
+function getClipStartTime(){
+  // Easy (0), Medium (1), Hard (2) -> putar dari reff (chorus hook)
+  // Impossible (3), Music God (4) -> putar dari intro (0s)
+  if(state.level <= 2){
+    return Number(state.current?.reff || 10);
+  }
+  return 0;
+}
+
 function playSnippet(){
   if(!state.current||!state.audio.src){$("feedback").style.color="#ba5846";$("feedback").textContent="Please wait, loading audio snippet.";return}
   if(!state.audio.paused||state.playingListener){stopAudio();$("playLabel").textContent="Replay clip";return}
-  stopAudio();state.audio.currentTime=0;$("playIcon").textContent="Ⅱ";$("playLabel").textContent="Playing";
+
+  const startTime = getClipStartTime();
+  stopAudio();
+  try { state.audio.currentTime = startTime; } catch(e) {}
+  $("playIcon").textContent="Ⅱ";
+  $("playLabel").textContent="Playing";
   const duration=clipSeconds[Math.min(state.attempt,clipSeconds.length-1)];
+
   const onPlaying=()=>{
-    state.playingListener=null;state.audio.removeEventListener("playing",onPlaying);waveform.classList.add("playing");$("gameStatus").textContent="PLAYING SNIPPET";$("playHint").classList.remove("done");$("playHint").textContent=`Playing ${formatClip(duration)}…`;
-    state.clipTimer=setTimeout(finishClip,duration*1000+150);
+    state.playingListener=null;
+    state.audio.removeEventListener("playing",onPlaying);
+    if(Math.abs(state.audio.currentTime - startTime) > 1.5 && state.audio.seekable.length > 0){
+      try { state.audio.currentTime = startTime; } catch(e) {}
+    }
+    const actualStart = state.audio.currentTime;
+    waveform.classList.add("playing");
+    $("gameStatus").textContent="PLAYING SNIPPET";
+    $("playHint").classList.remove("done");
+    $("playHint").textContent=`Playing ${formatClip(duration)}…`;
+    state.clipTimer=setTimeout(finishClip,duration*1000+200);
     const update=()=>{
       if(state.audio.paused)return;
-      const progress=Math.min(1,state.audio.currentTime/duration);
+      const elapsed = Math.max(0, state.audio.currentTime - actualStart);
+      const progress=Math.min(1, elapsed / duration);
       setPlaybackProgress(progress);
-      if(progress>=1){finishClip();return}
+      if(elapsed>=duration){finishClip();return}
       state.frameId=requestAnimationFrame(update);
     };
     update();
   };
-  state.playingListener=onPlaying;state.audio.addEventListener("playing",onPlaying);
-  state.audio.play().catch(error=>{if(state.playingListener!==onPlaying)return;state.audio.removeEventListener("playing",onPlaying);state.playingListener=null;console.warn("Preview playback failed",error.name,state.audio.error?.code);stopAudio();if(error.name==="NotAllowedError"){$("playHint").textContent="Browser blocked audio autoplay. Click play again.";$("feedback").style.color="#ba5846";$("feedback").textContent="Press the play button once more.";return}state.failedIds.add(state.current.id);nextSong()});
+  state.playingListener=onPlaying;
+  state.audio.addEventListener("playing",onPlaying);
+  state.audio.play().catch(error=>{
+    if(state.playingListener!==onPlaying)return;
+    state.audio.removeEventListener("playing",onPlaying);
+    state.playingListener=null;
+    console.warn("Preview playback failed",error.name,state.audio.error?.code);
+    stopAudio();
+    if(error.name==="NotAllowedError"){
+      $("playHint").textContent="Browser blocked audio autoplay. Click play again.";
+      $("feedback").style.color="#ba5846";
+      $("feedback").textContent="Press the play button once more.";
+      return;
+    }
+    state.failedIds.add(state.current.id);
+    nextSong();
+  });
 }
 
 function setPlaybackProgress(value){$("playProgress").style.transform=`scaleX(${value})`;$("playProgressTrack").setAttribute("aria-valuenow",String(Math.round(value*100)))}
-function finishClip(){if(!state.current||state.locked)return;stopAudio(false);setPlaybackProgress(1);$("playLabel").textContent="Replay clip";$("gameStatus").textContent="CLIP FINISHED";$("playHint").classList.add("done");$("playHint").textContent=state.attempt<clipSeconds.length-1?`${formatClip(clipSeconds[state.attempt])} finished. Replay or unlock ${formatClip(clipSeconds[state.attempt+1])}.`:`${formatClip(clipSeconds[state.attempt])} finished. Replay or reveal answer.`}
+function finishClip(){
+  if(!state.current||state.locked)return;
+  stopAudio(false);
+  setPlaybackProgress(1);
+  const startTime = getClipStartTime();
+  try { state.audio.currentTime = startTime; } catch(e) {}
+  $("playLabel").textContent="Replay clip";
+  $("gameStatus").textContent="CLIP FINISHED";
+  $("playHint").classList.add("done");
+  $("playHint").textContent=state.attempt<clipSeconds.length-1?`${formatClip(clipSeconds[state.attempt])} finished. Replay or unlock ${formatClip(clipSeconds[state.attempt+1])}.`:`${formatClip(clipSeconds[state.attempt])} finished. Replay or reveal answer.`;
+}
 
 function showSuggestions(){
   state.selected=null;const query=normalize($("answerInput").value);const box=$("suggestions");box.replaceChildren();
