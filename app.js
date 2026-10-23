@@ -141,8 +141,7 @@ async function loadCatalogOptions(){
 }
 
 function catalogMatches(region,genre,year){
-  const hasDeepCut = state.catalog.some(song=>!!song.deepCut);
-  return state.catalog.filter(song=>(region==="all"||song.region===region)&&(genre==="all"||song.genre===genre)&&yearMatchesFilter(song.year,year)&&(!hasDeepCut||(state.level===levels.length-1?!!song.deepCut:!song.deepCut)));
+  return state.catalog.filter(song=>(region==="all"||song.region===region)&&(genre==="all"||song.genre===genre)&&yearMatchesFilter(song.year,year));
 }
 
 function updateFilterOptions(){
@@ -152,7 +151,6 @@ function updateFilterOptions(){
   for(const option of $("genreSelect").options)option.disabled=!catalogMatches(state.region,option.value,state.year).length;
   for(const option of $("yearSelect").options)option.disabled=!catalogMatches(state.region,state.genre,option.value).length;
   $("startBtn").disabled=!matches.length;
-  $("nextBtn").disabled=!matches.length;
 }
 
 async function nextSong(){
@@ -191,9 +189,21 @@ async function nextSong(){
     if(requestId!==state.requestId)return;
     const availablePool=pool.filter(song=>!state.failedIds.has(song.id));
     if(!availablePool.length)throw new Error("empty-pool");
-    const poolHasDeepCut = pool.some(song=>!!song.deepCut);
-    if(state.level===levels.length-1&&poolHasDeepCut&&!availablePool.some(song=>song.deepCut))throw new Error("rare-empty");
-    const candidateGroups=rankedCandidateGroups(availablePool,state.level);
+
+    let finalPool = availablePool;
+    if(state.level === levels.length - 1){
+      // Level 4 (Music God): Paling susah (Deep cuts / Hardcore classics)
+      const hardInPool = availablePool.filter(song => song.level === 4 || song.deepCut);
+      if(hardInPool.length > 0){
+        finalPool = hardInPool;
+      } else {
+        // Fallback: If current filter selection doesn't contain deep cuts, pick from all available Level 4 tracks in catalog
+        const allHard = state.catalog.filter(song => (song.level === 4 || song.deepCut) && !state.failedIds.has(song.id));
+        finalPool = allHard.length > 0 ? allHard : availablePool;
+      }
+    }
+
+    const candidateGroups=rankedCandidateGroups(finalPool,state.level);
     const playable=await findPlayableSong(candidateGroups,requestId);
     if(!playable)throw new Error("preview-unavailable");
     if(requestId!==state.requestId)return;
@@ -542,6 +552,7 @@ function finishSong(won,playedLevel=state.level){
   $("finalArtist").textContent = state.current.artist;
   $("nextChoiceHint").textContent = "Ready for the next round? You can change catalog, genre, or release year anytime above.";
   $("trackSource").href = state.current.trackUrl || `https://www.deezer.com/track/${state.current.id}`;
+  nextBtn.disabled = false;
 }
 
 function levelCounter(){return "LEVEL <b>"+levels[state.level]+"</b>"}
