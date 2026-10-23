@@ -149,7 +149,8 @@ class Handler(SimpleHTTPRequestHandler):
             return self.send_preview(path.query)
         ALLOWED_STATIC = {
             "/", "/index.html", "/app.js", "/style.css",
-            "/favicon.svg", "/favicon.ico", "/favicon.png"
+            "/favicon.svg", "/favicon.ico", "/favicon.png",
+            "/search_dictionary.json"
         }
         if path.path not in ALLOWED_STATIC:
             return self.send_error(404)

@@ -28,6 +28,7 @@ const state={
   selected:null,
   songs:[],
   catalog:[],
+  searchCatalog:[],
   audio:new Audio(),
   frameId:null,
   clipTimer:null,
@@ -129,10 +130,17 @@ if(location.protocol==="file:"){
 
 async function loadCatalogOptions(){
   try{
-    const response=await fetch("/api/songs?region=all&genre=all&year=all");
-    if(!response.ok)throw new Error("catalog-unavailable");
-    state.catalog=(await response.json()).tracks||[];
-    updateFilterOptions();
+    const [songsRes, searchRes] = await Promise.allSettled([
+      fetch("/api/songs?region=all&genre=all&year=all"),
+      fetch("/search_dictionary.json")
+    ]);
+    if(songsRes.status === "fulfilled" && songsRes.value.ok){
+      state.catalog = (await songsRes.value.json()).tracks || [];
+      updateFilterOptions();
+    }
+    if(searchRes.status === "fulfilled" && searchRes.value.ok){
+      state.searchCatalog = (await searchRes.value.json()) || [];
+    }
   }catch(error){
     $("filterAvailability").textContent="Server is not reachable. Please start MULAI-GAME.cmd.";
     $("startBtn").disabled=true;
@@ -458,18 +466,132 @@ function finishClip(){
   $("playHint").textContent=state.attempt<clipSeconds.length-1?`${formatClip(clipSeconds[state.attempt])} finished. Replay or unlock ${formatClip(clipSeconds[state.attempt+1])}.`:`${formatClip(clipSeconds[state.attempt])} finished. Replay or reveal answer.`;
 }
 
+function getSearchPool(){
+  const poolMap = new Map();
+  const addSong = (song) => {
+    if(!song || !song.title || !song.artist) return;
+    const key = `${normalize(song.title)}:::${normalize(song.artist)}`;
+    if(!poolMap.has(key)){
+      poolMap.set(key, { title: song.title, artist: song.artist, id: song.id });
+    }
+  };
+
+  // Prioritas urutan data
+  if(state.current) addSong(state.current);
+  if(Array.isArray(state.songs)) state.songs.forEach(addSong);
+  if(Array.isArray(state.searchCatalog)) state.searchCatalog.forEach(addSong);
+  if(Array.isArray(state.catalog)) state.catalog.forEach(addSong);
+
+  return Array.from(poolMap.values());
+}
+
 function showSuggestions(){
-  state.selected=null;const query=normalize($("answerInput").value);const box=$("suggestions");box.replaceChildren();
-  if(query.length<2){box.classList.add("hidden");return}
-  const matches=state.songs.filter(song=>normalize(`${song.title} ${song.artist}`).includes(query)).slice(0,6);
-  matches.forEach(song=>{const option=document.createElement("button");option.type="button";option.className="suggestion-option";option.textContent=`${song.title} — ${song.artist}`;option.addEventListener("click",()=>{state.selected=song;$("answerInput").value=`${song.title} — ${song.artist}`;box.classList.add("hidden");submitGuess()});box.appendChild(option)});
-  box.classList.toggle("hidden",matches.length===0);
+  state.selected = null;
+  const rawInput = $("answerInput").value;
+  const query = normalize(rawInput);
+  const box = $("suggestions");
+  box.replaceChildren();
+
+  if(query.length < 2){
+    box.classList.add("hidden");
+    return;
+  }
+
+  const pool = getSearchPool();
+
+  // Pisahkan pencocokan untuk memberikan pengecoh:
+  // 1. Artis sama tapi judul berbeda (misal ketik 'har' -> berbagai lagu Harry Styles)
+  // 2. Judul sama/mirip tapi artis berbeda (misal ketik 'golden' -> Harry Styles, HUNTR/X, dll)
+  const artistPrefixMatches = [];
+  const titlePrefixMatches = [];
+  const artistMatches = [];
+  const titleMatches = [];
+  const generalMatches = [];
+
+  for(const item of pool){
+    const normTitle = normalize(item.title);
+    const normArtist = normalize(item.artist);
+    const isArtistPrefix = normArtist.startsWith(query);
+    const isTitlePrefix = normTitle.startsWith(query);
+    const isArtist = normArtist.includes(query);
+    const isTitle = normTitle.includes(query);
+
+    if(isArtistPrefix && !isTitlePrefix){
+      artistPrefixMatches.push(item);
+    } else if(isTitlePrefix && !isArtistPrefix){
+      titlePrefixMatches.push(item);
+    } else if(isArtist && !isTitle){
+      artistMatches.push(item);
+    } else if(isTitle && !isArtist){
+      titleMatches.push(item);
+    } else if((normTitle + normArtist).includes(query)){
+      generalMatches.push(item);
+    }
+  }
+
+  const candidates = [
+    ...artistPrefixMatches,
+    ...titlePrefixMatches,
+    ...artistMatches,
+    ...titleMatches,
+    ...generalMatches
+  ];
+
+  // Deduplikasi ketat (100% mencegah nama kembar ganda di dropdown)
+  const seen = new Set();
+  const uniqueMatches = [];
+  for(const song of candidates){
+    const dedupeKey = `${normalize(song.title)}:::${normalize(song.artist)}`;
+    if(!seen.has(dedupeKey)){
+      seen.add(dedupeKey);
+      uniqueMatches.push(song);
+    }
+    if(uniqueMatches.length >= 8) break;
+  }
+
+  uniqueMatches.forEach(song => {
+    const option = document.createElement("button");
+    option.type = "button";
+    option.className = "suggestion-option";
+    option.textContent = `${song.title} — ${song.artist}`;
+    option.addEventListener("click", () => {
+      state.selected = song;
+      $("answerInput").value = `${song.title} — ${song.artist}`;
+      box.classList.add("hidden");
+      submitGuess();
+    });
+    box.appendChild(option);
+  });
+
+  box.classList.toggle("hidden", uniqueMatches.length === 0);
 }
 
 function submitGuess(){
   if(!state.current||state.locked)return;
-  const text=normalize($("answerInput").value);if(!text){setFeedback("Please type a song title or artist first.","error");return}
-  const correct=state.selected?state.selected.id===state.current.id:(text===normalize(state.current.title)||text===normalize(`${state.current.title}${state.current.artist}`));
+  const text=normalize($("answerInput").value);
+  if(!text){
+    setFeedback("Please type a song title or artist first.","error");
+    return;
+  }
+
+  const targetTitleNorm = normalize(state.current.title);
+  const targetArtistNorm = normalize(state.current.artist);
+  const combo1 = targetTitleNorm + targetArtistNorm;
+  const combo2 = targetArtistNorm + targetTitleNorm;
+
+  let correct = false;
+  if(state.selected){
+    if(state.selected.id && state.current.id && state.selected.id === state.current.id){
+      correct = true;
+    } else if(normalize(state.selected.title) === targetTitleNorm && normalize(state.selected.artist) === targetArtistNorm){
+      correct = true;
+    }
+  } else {
+    if(text === targetTitleNorm || text === combo1 || text === combo2){
+      correct = true;
+    }
+  }
+
   $("suggestions").classList.add("hidden");
   if(correct){
     const playedLevel=state.level;
