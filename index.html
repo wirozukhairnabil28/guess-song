@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#17191a" />
+  <title>GUESS SONG — Music Quiz</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Home"><span>GUESS SONG<span class="brand-dot">.</span></span></a>
+    <div class="header-actions">
+      <span class="level-pill" id="levelBadge">Easy</span>
+      <span class="score-pill" aria-label="Correct songs count"><strong
+          id="bestScore">0</strong><span>correct</span></span>
+      <button class="how-button" id="howBtn" type="button" aria-label="How to play">?</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-heading" aria-label="Music guessing game">
+      <span class="eyebrow">RANDOM MUSIC QUIZ</span>
+      <h1>Listen. <em>Guess.</em></h1>
+      <p>Guess viral hits and deep cuts from short audio clips. The more you miss, the longer the clip gets.</p>
+    </section>
+
+    <section class="filters" aria-label="Select catalog, genre, and release year">
+      <div class="filter-group">
+        <span class="filter-caption">SELECT CATALOG</span>
+        <div class="region-tabs" role="group" aria-label="Song origin">
+          <button class="segment active" data-region="all" type="button">All</button>
+          <button class="segment" data-region="indo" type="button">Indonesian</button>
+          <button class="segment" data-region="west" type="button">International</button>
+        </div>
+      </div>
+      <span class="filter-divider" aria-hidden="true"></span>
+      <label class="genre-select" for="genreSelect">
+        <span class="filter-caption">GENRE</span>
+        <span class="select-wrap">
+          <select id="genreSelect">
+            <option value="all">All genres</option>
+            <option>Pop</option>
+            <option>Rock</option>
+            <option>Electronic</option>
+            <option>Hip-Hop/Rap</option>
+            <option>R&amp;B/Soul</option>
+            <option>Alternative</option>
+            <option>Latin</option>
+          </select>
+          <span aria-hidden="true">⌄</span>
+        </span>
+      </label>
+      <label class="year-select" for="yearSelect">
+        <span class="filter-caption">RELEASE YEAR</span>
+        <span class="select-wrap">
+          <select id="yearSelect">
+            <option value="all">All years</option>
+            <option value="2000-2009">2000–2009</option>
+            <option value="2010-2019">2010–2019</option>
+            <option value="2020-now" selected>2020–present</option>
+          </select>
+          <span aria-hidden="true">⌄</span>
+        </span>
+      </label>
+    </section>
+    <p class="filter-availability" id="filterAvailability" aria-live="polite" style="display: none;">Preparing songs…
+    </p>
+
+    <section class="game" id="playPanel" aria-label="Music guessing game panel">
+      <div class="play-topline">
+        <button class="another-button hidden" id="anotherBtn" type="button">← End round &amp; change picks</button>
+        <span class="status-label" id="gameStatus" style="display: none;">READY TO PLAY</span>
+        <span class="round-counter" id="roundCounter">RANDOM TRACK</span>
+      </div>
+      <div class="player-content idle-state" id="idleState">
+        <p class="idle-copy" id="idleCopy">Listen to the clip, then guess the song.</p>
+        <button class="cancel-loading hidden" id="cancelLoadingBtn" type="button">Cancel search</button>
+      </div>
+      <div class="player-content active-state hidden" id="activeState">
+        <div class="player-metadata" style="display: none;">
+          <span class="tag" id="regionTag">INDONESIA</span>
+          <span class="tag" id="genreTag">POP</span>
+          <span class="tag" id="yearTag">2024</span>
+        </div>
+        <div class="clip-progress">
+          <span class="clip-label" id="clipDuration">0.1s</span>
+          <div class="waveform" id="waveform" aria-hidden="true"></div>
+          <div class="play-progress-track" id="playProgressTrack" role="progressbar" aria-label="Clip progress"
+            aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <span id="playProgress"></span>
+          </div>
+        </div>
+        <div class="play-actions">
+          <button id="playBtn" class="play-button" type="button" aria-label="Play snippet">
+            <span id="playIcon">▶</span>
+            <span id="playLabel" class="sr-only">Play snippet</span>
+          </button>
+          <button id="skipBtn" class="skip-button" type="button">Unlock 1s clip</button>
+        </div>
+        <p class="play-hint" id="playHint" aria-live="polite">Press play to listen to the clip.</p>
+        <div class="volume-control">
+          <label for="volumeSlider">Volume</label>
+          <input id="volumeSlider" type="range" min="0" max="100" value="75" aria-label="Audio volume" />
+          <output id="volumeValue" for="volumeSlider">75%</output>
+        </div>
+        <a id="audioCredit" class="audio-credit hidden" href="https://www.deezer.com" target="_blank"
+          rel="noopener noreferrer">Preview by Deezer</a>
+        <div class="answer-row">
+          <label class="sr-only" for="answerInput">Search song title or artist</label>
+          <input id="answerInput" type="text" placeholder="Search song title or artist…" autocomplete="off" />
+          <div class="suggestions hidden" id="suggestions"></div>
+        </div>
+        <p class="feedback" id="feedback" aria-live="polite"></p>
+        <p class="attempt-caption" id="attemptCaption">ATTEMPT 1 OF 5</p>
+      </div>
+      <div class="start-wrap" id="startWrap">
+        <button id="startBtn" class="play-button" type="button" aria-label="Start guessing"><span>▶</span></button>
+        <p id="startCaption">Choose catalog, genre, and year, then start</p>
+        <button class="reset-history-btn" id="resetHistoryBtn" type="button"
+          title="Reset play history and start from level 1">↺ Reset history</button>
+      </div>
+      <div class="result-state hidden" id="resultState">
+        <div class="result-card">
+          <div class="result-badge" id="resultBadge">
+            <span class="result-badge-icon" id="resultBadgeIcon">✓</span>
+            <span class="result-badge-text" id="resultBadgeText">Correct Guess!</span>
+          </div>
+          <h2 class="result-headline" id="resultHeadline">Level Complete</h2>
+          <p class="result-sub" id="resultMessage">You got it! Moving up to the next level.</p>
+
+          <div class="revealed-track-card">
+            <div class="track-vinyl" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+            </div>
+            <div class="track-details">
+              <span class="track-label">THE SONG WAS</span>
+              <div class="track-title" id="finalTitle">Song Title</div>
+              <div class="track-artist" id="finalArtist">Artist Name</div>
+            </div>
+            <a id="trackSource" class="track-deezer-btn" href="https://www.deezer.com" target="_blank"
+              rel="noopener noreferrer" title="Listen on Deezer">
+              <span>Deezer</span> ↗
+            </a>
+          </div>
+
+          <p class="next-choice-hint" id="nextChoiceHint">Ready for the next round? Change filters above anytime or
+            press continue.</p>
+          <button class="next-button" id="nextBtn" type="button">Continue to Level Medium →</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© WIRO ZUKHAIR NABIL</p>
+  </footer>
+
+  <dialog id="howDialog">
+    <div class="dialog-head">
+      <h2>How to play</h2>
+      <button id="closeDialog" aria-label="Close">×</button>
+    </div>
+    <ol>
+      <li>Choose catalog (All, Indonesian, or International), genre, and release year range.</li>
+      <li>Press Start to get a random curated song. Selections are locked during each round.</li>
+      <li>Listen to the audio clip and guess the song title or artist name.</li>
+      <li>Each wrong guess or skip unlocks longer clips: 0.1s → 1s → 3s → 5s → 10s.</li>
+      <li>Guess correctly to advance levels: Easy → Medium → Hard → Impossible → Music God.</li>
+      <li>If you run out of attempts or forfeit, the streak is lost and you reset back to Easy!</li>
+    </ol>
+    <p class="dialog-note">Release year refers to initial song release. Difficulty scales by Deezer popularity rank.
+      30-second audio previews are streamed directly from Deezer.</p>
+  </dialog>
+  <script src="app.js"></script>
+</body>
+
+</html>
