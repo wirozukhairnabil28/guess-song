@@ -19,6 +19,11 @@ An interactive web-based music guessing game where players identify viral hits a
 - **Filters & Catalog**:
   - Filter by region (**All**, **Indonesian**, or **International**).
   - Filter by **Genre** and **Release Year**.
+- **Smart Song Rotation (anti-repeat)**:
+  - Shuffle-bag: every song in the current filter/level is played once before any song repeats (history is saved in the browser across sessions).
+  - Cooldown: the same song is not repeated within 40 rounds, and the same artist not within 6 rounds (when enough alternatives exist).
+  - Levels use real per-song difficulty; if a level has fewer than 12 songs, neighbouring levels are mixed in.
+  - `↺ Reset history` clears the rotation history.
 - **Clean & Fast**:
   - Vanilla HTML5, CSS3, and JavaScript — zero heavy frontend frameworks.
   - Responsive dark-mode interface with ambient background lighting.

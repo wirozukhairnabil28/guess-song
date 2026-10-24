@@ -34,8 +34,20 @@ const state={
   playingListener:null,
   requestId:0,
   failedIds:new Set(),
-  recentIds:readJson("tebakRecentSongs",[])
+  recentIds:readJson("tebakRecentSongs",[]),
+  playStats:readJson("tebakPlayStats",{})
 };
+const RECENT_LIMIT=120,SONG_COOLDOWN=40,ARTIST_COOLDOWN=6,MIN_TIER=12;
+function savePlayHistory(){
+  localStorage.setItem("tebakRecentSongs",JSON.stringify(state.recentIds));
+  localStorage.setItem("tebakPlayStats",JSON.stringify(state.playStats));
+}
+function playCount(id){return state.playStats[id]?.n||0}
+function recordPlay(song){
+  state.recentIds=state.recentIds.filter(id=>id!==song.id).concat(song.id).slice(-RECENT_LIMIT);
+  state.playStats[song.id]={n:playCount(song.id)+1};
+  savePlayHistory();
+}
 
 function saveProgress(){/* session-based streak */}
 function renderProgress(){
@@ -74,7 +86,8 @@ $("closeDialog").addEventListener("click",()=>$("howDialog").close());
 $("howDialog").addEventListener("click",event=>{if(event.target===$("howDialog"))$("howDialog").close()});
 
 $("resetHistoryBtn").addEventListener("click",()=>{
-  state.recentIds=[];state.failedIds.clear();state.solvedIds=[];
+  state.recentIds=[];state.playStats={};state.failedIds.clear();state.solvedIds=[];
+  localStorage.removeItem("tebakPlayStats");
   state.level=0;state.solved=0;
   localStorage.removeItem("tebakRecentSongs");
   localStorage.removeItem("tebakProgressV2");
@@ -170,11 +183,6 @@ async function nextSong(){
   state.year=$("yearSelect").value;
   
   const previewPool=state.catalog.filter(song=>(state.region==="all"||song.region===state.region)&&(state.genre==="all"||song.genre===state.genre)&&yearMatchesFilter(song.year,state.year));
-  // Anti-repetisi kuat: jangan hapus riwayat kecuali seluruh lagu pada filter ini sudah pernah diputar
-  if(previewPool.length>0&&previewPool.every(song=>state.recentIds.includes(song.id))){
-    state.recentIds=state.recentIds.slice(-Math.max(1, Math.floor(previewPool.length / 2)));
-    localStorage.setItem("tebakRecentSongs",JSON.stringify(state.recentIds));
-  }
   setFiltersEnabled(false);
   stopAudio();
   const requestId=++state.requestId;
@@ -198,20 +206,7 @@ async function nextSong(){
     const availablePool=pool.filter(song=>!state.failedIds.has(song.id));
     if(!availablePool.length)throw new Error("empty-pool");
 
-    let finalPool = availablePool;
-    if(state.level === levels.length - 1){
-      // Level 4 (Music God): Paling susah (Deep cuts / Hardcore classics)
-      const hardInPool = availablePool.filter(song => song.level === 4 || song.deepCut);
-      if(hardInPool.length > 0){
-        finalPool = hardInPool;
-      } else {
-        // Fallback: If current filter selection doesn't contain deep cuts, pick from all available Level 4 tracks in catalog
-        const allHard = state.catalog.filter(song => (song.level === 4 || song.deepCut) && !state.failedIds.has(song.id));
-        finalPool = allHard.length > 0 ? allHard : availablePool;
-      }
-    }
-
-    const candidateGroups=rankedCandidateGroups(finalPool,state.level);
+    const candidateGroups=rankedCandidateGroups(availablePool,state.level);
     const playable=await findPlayableSong(candidateGroups,requestId);
     if(!playable)throw new Error("preview-unavailable");
     if(requestId!==state.requestId)return;
@@ -221,8 +216,7 @@ async function nextSong(){
     state.locked=false;
     state.selected=null;
     $("cancelLoadingBtn").classList.add("hidden");
-    state.recentIds=state.recentIds.filter(id=>id!==playable.id).concat(playable.id).slice(-35);
-    localStorage.setItem("tebakRecentSongs",JSON.stringify(state.recentIds));
+    recordPlay(playable);
     $("startBtn").disabled=false;
     $("nextBtn").disabled=false;
     $("idleState").classList.add("hidden");
@@ -275,50 +269,38 @@ function shuffleSongs(songs){
   return shuffled;
 }
 
-function groupsForRegion(pool,level){
-  let tier;
-  if(level === levels.length - 1){
-    // Final Level (Music God): Paling susah (Deep cuts / Hardcore classics)
-    const hard = pool.filter(song => song.level === 4 || song.deepCut);
-    tier = hard.length ? hard : pool;
-  } else {
-    // Levels 0 to 3: Lagu viral TikTok & media sosial
-    const exact = pool.filter(song => song.level === level);
-    if(exact.length){
-      tier = exact;
-    } else {
-      const viral = pool.filter(song => song.level !== 4 && !song.deepCut);
-      tier = viral.length ? viral : pool;
-    }
+// Level tier: lagu dengan level tepat dulu; kalau kurang dari MIN_TIER, lebarkan ke level tetangga.
+function tierFor(pool,level){
+  const last=levels.length-1;
+  const isHard=song=>song.level===last||song.deepCut;
+  const distance=song=>level===last?(isHard(song)?0:last-song.level):(isHard(song)?99:Math.abs(song.level-level));
+  const sorted=pool.map(song=>({song,d:Number.isFinite(song.level)||song.deepCut?distance(song):0})).sort((x,y)=>x.d-y.d);
+  const tier=[];
+  for(let i=0;i<sorted.length;){
+    const d=sorted[i].d;let j=i;
+    while(j<sorted.length&&sorted[j].d===d)tier.push(sorted[j++].song);
+    if(tier.length>=MIN_TIER)break;
+    i=j;
   }
-
-  const tierIds=new Set(tier.map(song=>song.id));
-  const recent=new Set(state.recentIds);
-  const solved=new Set(state.solvedIds);
-  const remaining=pool.filter(song=>!tierIds.has(song.id));
-  const prioritized=songs=>[
-    shuffleSongs(songs.filter(song=>!recent.has(song.id)&&!solved.has(song.id))),
-    shuffleSongs(songs.filter(song=>!recent.has(song.id)&&solved.has(song.id))),
-    shuffleSongs(songs.filter(song=>recent.has(song.id)&&!solved.has(song.id))),
-    shuffleSongs(songs.filter(song=>recent.has(song.id)&&solved.has(song.id))),
-  ];
-  const main=prioritized(tier);
-  if(level===levels.length-1)return main;
-  const fallback=prioritized(remaining);
-  return [main[0],fallback[0],main[1],fallback[1],main[2],fallback[2],main[3],fallback[3]];
+  return tier;
 }
 
+// Shuffle-bag: lagu yang paling jarang diputar didahulukan (lintas sesi), lagu/artis yang baru saja
+// muncul diturunkan prioritasnya, dan urutan di dalam kelompok yang sama diacak.
 function rankedCandidateGroups(pool,level){
-  const indo=pool.filter(song=>song.region==="indo");
-  const west=pool.filter(song=>song.region==="west");
-  if(state.region!=="all"||!indo.length||!west.length)return groupsForRegion(pool,level);
-  const byId=new Map(pool.map(song=>[song.id,song.region]));
-  const lastTwo=state.recentIds.slice(-2).map(id=>byId.get(id));
-  const primary=lastTwo.length===2&&lastTwo[0]===lastTwo[1]&&lastTwo[0]?lastTwo[0]==="indo"?"west":"indo":Math.random()<.5?"indo":"west";
-  const first=groupsForRegion(primary==="indo"?indo:west,level);
-  const second=groupsForRegion(primary==="indo"?west:indo,level);
-  if(level===levels.length-1)return [first[0],second[0],first[1],second[1],first[2],second[2],first[3],second[3]];
-  return [first[0],second[0],first[1],second[1],first[2],second[2],first[3],second[3],first[4],second[4],first[5],second[5],first[6],second[6],first[7],second[7]];
+  const tier=tierFor(pool,level);
+  const artistOf=new Map(state.catalog.map(song=>[song.id,normalize(song.artist)]));
+  const recentSongs=new Set(state.recentIds.slice(-SONG_COOLDOWN));
+  const recentArtists=new Set(state.recentIds.slice(-ARTIST_COOLDOWN).map(id=>artistOf.get(id)).filter(Boolean));
+  const ranked=shuffleSongs(tier).map(song=>({
+    song,
+    penalty:(recentSongs.has(song.id)?2:0)+(recentArtists.has(normalize(song.artist))?1:0),
+    count:playCount(song.id)
+  }));
+  // Pakai penalty hanya jika masih ada cukup alternatif; stabil sehingga urutan acak tetap terjaga.
+  const fresh=ranked.filter(item=>item.penalty===0).length;
+  ranked.sort((x,y)=>(fresh>=4?x.penalty-y.penalty:0)||x.count-y.count||x.penalty-y.penalty);
+  return [ranked.map(item=>item.song)];
 }
 
 async function findPlayableSong(groups,requestId){
@@ -380,16 +362,6 @@ function yearMatchesFilter(year,selection){
   if(selection==="before-2000")return year<2000;
   const [start,end]=selection.split("-").map(Number);
   return year>=start&&year<=end;
-}
-
-function tracksForLevel(pool,level){
-  const shuffled=shuffleSongs(pool);
-  const ranked=shuffled.sort((a,b)=>b.downloads-a.downloads);
-  if(!ranked.length)return [];
-  const width=Math.min(ranked.length,Math.max(10,Math.ceil(ranked.length*.6)));
-  const center=Math.round(level*(ranked.length-1)/(levels.length-2));
-  const start=Math.max(0,Math.min(ranked.length-width,center-Math.floor(width/2)));
-  return ranked.slice(start,start+width);
 }
 
 function getClipStartTime(){
@@ -485,86 +457,109 @@ function getSearchPool(){
   return Array.from(poolMap.values());
 }
 
+function makeSuggestionOption(song, highlightArtist){
+  const option = document.createElement("button");
+  option.type = "button";
+  option.className = "suggestion-option";
+  const titleEl = document.createElement("span");
+  titleEl.className = "sug-title";
+  titleEl.textContent = song.title;
+  const artistEl = document.createElement("span");
+  artistEl.className = "sug-artist";
+  if(highlightArtist){
+    const em = document.createElement("span");
+    em.className = "sug-artist-match";
+    em.textContent = song.artist;
+    artistEl.appendChild(em);
+  } else {
+    artistEl.textContent = song.artist;
+  }
+  option.appendChild(titleEl);
+  option.appendChild(artistEl);
+  option.addEventListener("click", () => {
+    state.selected = song;
+    $("answerInput").value = `${song.title} — ${song.artist}`;
+    $("suggestions").classList.add("hidden");
+    submitGuess();
+  });
+  return option;
+}
+
+function addSectionLabel(box, text){
+  const label = document.createElement("span");
+  label.className = "suggestions-section-label";
+  label.textContent = text;
+  box.appendChild(label);
+}
+
 function showSuggestions(){
   state.selected = null;
-  const rawInput = $("answerInput").value;
-  const query = normalize(rawInput);
+  const query = normalize($("answerInput").value);
   const box = $("suggestions");
   box.replaceChildren();
 
-  if(query.length < 2){
-    box.classList.add("hidden");
-    return;
-  }
+  if(query.length < 2){ box.classList.add("hidden"); return; }
 
   const pool = getSearchPool();
+  const seen = new Set();
+  let totalShown = 0;
 
-  // Pisahkan pencocokan untuk memberikan pengecoh:
-  // 1. Artis sama tapi judul berbeda (misal ketik 'har' -> berbagai lagu Harry Styles)
-  // 2. Judul sama/mirip tapi artis berbeda (misal ketik 'golden' -> Harry Styles, HUNTR/X, dll)
-  const artistPrefixMatches = [];
-  const titlePrefixMatches = [];
-  const artistMatches = [];
+  // --- Seksi 1: Ketik nama artis → tampilkan 5 judul lagu dari artis itu sebagai pengecoh ---
+  const artistSeen = new Set();
+  const matchedArtists = [];
+  for(const item of pool){
+    const normArtist = normalize(item.artist);
+    const normTitle = normalize(item.title);
+    // Artis cocok, tapi bukan karena judulnya
+    if(normArtist.includes(query) && !normTitle.includes(query) && !artistSeen.has(normArtist)){
+      artistSeen.add(normArtist);
+      matchedArtists.push(item.artist);
+    }
+  }
+
+  for(const artist of matchedArtists.slice(0, 2)){
+    const normArtist = normalize(artist);
+    const artistSongs = shuffleSongs(pool.filter(s => normalize(s.artist) === normArtist))
+      .slice(0, 5);
+    if(!artistSongs.length) continue;
+    addSectionLabel(box, `Songs by ${artist}`);
+    for(const song of artistSongs){
+      const key = `${normalize(song.title)}:::${normArtist}`;
+      if(seen.has(key)) continue;
+      seen.add(key);
+      box.appendChild(makeSuggestionOption(song, true));
+      totalShown++;
+    }
+  }
+
+  // --- Seksi 2: Hasil umum berdasarkan judul ---
   const titleMatches = [];
-  const generalMatches = [];
-
   for(const item of pool){
     const normTitle = normalize(item.title);
     const normArtist = normalize(item.artist);
-    const isArtistPrefix = normArtist.startsWith(query);
-    const isTitlePrefix = normTitle.startsWith(query);
-    const isArtist = normArtist.includes(query);
-    const isTitle = normTitle.includes(query);
-
-    if(isArtistPrefix && !isTitlePrefix){
-      artistPrefixMatches.push(item);
-    } else if(isTitlePrefix && !isArtistPrefix){
-      titlePrefixMatches.push(item);
-    } else if(isArtist && !isTitle){
-      artistMatches.push(item);
-    } else if(isTitle && !isArtist){
+    const key = `${normTitle}:::${normArtist}`;
+    if(seen.has(key)) continue;
+    if(normTitle.includes(query) || (normTitle + normArtist).includes(query)){
       titleMatches.push(item);
-    } else if((normTitle + normArtist).includes(query)){
-      generalMatches.push(item);
     }
   }
 
-  const candidates = [
-    ...artistPrefixMatches,
-    ...titlePrefixMatches,
-    ...artistMatches,
-    ...titleMatches,
-    ...generalMatches
-  ];
-
-  // Deduplikasi ketat (100% mencegah nama kembar ganda di dropdown)
-  const seen = new Set();
-  const uniqueMatches = [];
-  for(const song of candidates){
-    const dedupeKey = `${normalize(song.title)}:::${normalize(song.artist)}`;
-    if(!seen.has(dedupeKey)){
-      seen.add(dedupeKey);
-      uniqueMatches.push(song);
+  if(titleMatches.length > 0){
+    const limit = Math.max(3, 8 - totalShown);
+    const toShow = titleMatches.slice(0, limit);
+    if(totalShown > 0) addSectionLabel(box, "Other matches");
+    for(const song of toShow){
+      const key = `${normalize(song.title)}:::${normalize(song.artist)}`;
+      if(seen.has(key)) continue;
+      seen.add(key);
+      box.appendChild(makeSuggestionOption(song, false));
+      totalShown++;
     }
-    if(uniqueMatches.length >= 8) break;
   }
 
-  uniqueMatches.forEach(song => {
-    const option = document.createElement("button");
-    option.type = "button";
-    option.className = "suggestion-option";
-    option.textContent = `${song.title} — ${song.artist}`;
-    option.addEventListener("click", () => {
-      state.selected = song;
-      $("answerInput").value = `${song.title} — ${song.artist}`;
-      box.classList.add("hidden");
-      submitGuess();
-    });
-    box.appendChild(option);
-  });
-
-  box.classList.toggle("hidden", uniqueMatches.length === 0);
+  box.classList.toggle("hidden", totalShown === 0);
 }
+
 
 function submitGuess(){
   if(!state.current||state.locked)return;

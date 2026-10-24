@@ -203,7 +203,7 @@ main { width: min(100% - 40px, 820px); margin: 38px auto 0; padding-bottom: 48px
 /* GAME PANEL */
 .game {
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   padding: 20px 22px 22px;
   border: 1px solid var(--border);
   border-radius: 16px;
@@ -358,7 +358,7 @@ main { width: min(100% - 40px, 820px); margin: 38px auto 0; padding-bottom: 48px
 .audio-credit:hover { color: var(--green); }
 
 /* INPUT & SUGGESTIONS */
-.answer-row { position: relative; display: flex; gap: 8px; margin-top: 16px; }
+.answer-row { position: relative; display: flex; gap: 8px; margin-top: 16px; z-index: 40; }
 .answer-row input {
   width: 100%;
   min-width: 0;
@@ -419,17 +419,17 @@ main { width: min(100% - 40px, 820px); margin: 38px auto 0; padding-bottom: 48px
 
 .suggestions {
   position: absolute;
-  z-index: 30;
-  top: 52px;
+  z-index: 9999;
+  top: calc(100% + 4px);
   left: 0;
   right: 0;
-  max-height: min(460px, 65vh);
+  max-height: min(380px, 60vh);
   overflow-y: auto;
   overscroll-behavior: contain;
   border: 1px solid var(--border);
   border-radius: 9px;
   background: var(--surface-raised);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.75);
   scrollbar-width: thin;
   scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
 }
@@ -446,7 +446,7 @@ main { width: min(100% - 40px, 820px); margin: 38px auto 0; padding-bottom: 48px
 .suggestion-option {
   display: block;
   width: 100%;
-  padding: 11px 14px;
+  padding: 10px 14px;
   border: 0;
   border-bottom: 1px solid var(--border-soft);
   background: transparent;
@@ -455,9 +455,25 @@ main { width: min(100% - 40px, 820px); margin: 38px auto 0; padding-bottom: 48px
   font-size: 13px;
   font-weight: 500;
   cursor: pointer;
+  line-height: 1.35;
 }
+.suggestion-option .sug-title { display: block; font-weight: 600; color: var(--text); }
+.suggestion-option .sug-artist { display: block; font-size: 11.5px; color: var(--muted); margin-top: 1px; }
+.suggestion-option .sug-artist-match { color: var(--green); font-weight: 600; }
 .suggestion-option:last-child { border-bottom: 0; }
 .suggestion-option:hover, .suggestion-option:focus-visible { background: #263128; outline: 0; }
+.suggestions-section-label {
+  display: block;
+  padding: 7px 14px 4px;
+  color: var(--quiet);
+  font: 700 10px var(--mono);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--border-soft);
+  background: var(--surface);
+  position: sticky;
+  top: 0;
+}
 
 .start-wrap { display: flex; flex-direction: column; align-items: center; padding: 15px 0 5px; }
 .start-wrap .play-button { margin-top: 0; }

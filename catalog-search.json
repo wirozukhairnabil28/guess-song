@@ -3574,5 +3574,5063 @@
     "genre": "Hip-Hop/Rap",
     "region": "indo",
     "rank": 670000
+  },
+  {
+    "title": "We Will Rock You",
+    "artist": "Queen",
+    "year": 1977,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 928500,
+    "level": 0
+  },
+  {
+    "title": "Don't Stop Me Now",
+    "artist": "Queen",
+    "year": 1979,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 852000,
+    "level": 1
+  },
+  {
+    "title": "Another One Bites the Dust",
+    "artist": "Queen",
+    "year": 1980,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 850500,
+    "level": 1
+  },
+  {
+    "title": "Under Pressure",
+    "artist": "Queen",
+    "year": 1981,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 849000,
+    "level": 1
+  },
+  {
+    "title": "Stairway to Heaven",
+    "artist": "Led Zeppelin",
+    "year": 1971,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 847500,
+    "level": 1
+  },
+  {
+    "title": "Whole Lotta Love",
+    "artist": "Led Zeppelin",
+    "year": 1969,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 756000,
+    "level": 2
+  },
+  {
+    "title": "Kashmir",
+    "artist": "Led Zeppelin",
+    "year": 1975,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 679500,
+    "level": 3
+  },
+  {
+    "title": "Hotel California",
+    "artist": "Eagles",
+    "year": 1976,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 918000,
+    "level": 0
+  },
+  {
+    "title": "Take It Easy",
+    "artist": "Eagles",
+    "year": 1972,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 676500,
+    "level": 3
+  },
+  {
+    "title": "Sweet Child O' Mine",
+    "artist": "Guns N' Roses",
+    "year": 1987,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 915000,
+    "level": 0
+  },
+  {
+    "title": "November Rain",
+    "artist": "Guns N' Roses",
+    "year": 1991,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 838500,
+    "level": 1
+  },
+  {
+    "title": "Welcome to the Jungle",
+    "artist": "Guns N' Roses",
+    "year": 1987,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 747000,
+    "level": 2
+  },
+  {
+    "title": "Paradise City",
+    "artist": "Guns N' Roses",
+    "year": 1987,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 745500,
+    "level": 2
+  },
+  {
+    "title": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "year": 1991,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 909000,
+    "level": 0
+  },
+  {
+    "title": "Come as You Are",
+    "artist": "Nirvana",
+    "year": 1991,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 832500,
+    "level": 1
+  },
+  {
+    "title": "Lithium",
+    "artist": "Nirvana",
+    "year": 1991,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 741000,
+    "level": 2
+  },
+  {
+    "title": "Back in Black",
+    "artist": "AC/DC",
+    "year": 1980,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 829500,
+    "level": 1
+  },
+  {
+    "title": "Highway to Hell",
+    "artist": "AC/DC",
+    "year": 1979,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 828000,
+    "level": 1
+  },
+  {
+    "title": "Thunderstruck",
+    "artist": "AC/DC",
+    "year": 1990,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 826500,
+    "level": 1
+  },
+  {
+    "title": "Livin' on a Prayer",
+    "artist": "Bon Jovi",
+    "year": 1986,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 900000,
+    "level": 0
+  },
+  {
+    "title": "You Give Love a Bad Name",
+    "artist": "Bon Jovi",
+    "year": 1986,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 733500,
+    "level": 2
+  },
+  {
+    "title": "Born to Run",
+    "artist": "Bruce Springsteen",
+    "year": 1975,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 732000,
+    "level": 2
+  },
+  {
+    "title": "Dream On",
+    "artist": "Aerosmith",
+    "year": 1973,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 730500,
+    "level": 2
+  },
+  {
+    "title": "Walk This Way",
+    "artist": "Aerosmith",
+    "year": 1975,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 729000,
+    "level": 2
+  },
+  {
+    "title": "I Don't Want to Miss a Thing",
+    "artist": "Aerosmith",
+    "year": 1998,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 817500,
+    "level": 1
+  },
+  {
+    "title": "Enter Sandman",
+    "artist": "Metallica",
+    "year": 1991,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 816000,
+    "level": 1
+  },
+  {
+    "title": "Nothing Else Matters",
+    "artist": "Metallica",
+    "year": 1991,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 814500,
+    "level": 1
+  },
+  {
+    "title": "Wonderwall",
+    "artist": "Oasis",
+    "year": 1995,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 888000,
+    "level": 0
+  },
+  {
+    "title": "Don't Look Back in Anger",
+    "artist": "Oasis",
+    "year": 1995,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 811500,
+    "level": 1
+  },
+  {
+    "title": "Champagne Supernova",
+    "artist": "Oasis",
+    "year": 1995,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 720000,
+    "level": 2
+  },
+  {
+    "title": "Karma Police",
+    "artist": "Radiohead",
+    "year": 1997,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 717000,
+    "level": 2
+  },
+  {
+    "title": "Losing My Religion",
+    "artist": "R.E.M.",
+    "year": 1991,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 714000,
+    "level": 2
+  },
+  {
+    "title": "Zombie",
+    "artist": "The Cranberries",
+    "year": 1994,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 802500,
+    "level": 1
+  },
+  {
+    "title": "Linger",
+    "artist": "The Cranberries",
+    "year": 1993,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 711000,
+    "level": 2
+  },
+  {
+    "title": "Basket Case",
+    "artist": "Green Day",
+    "year": 1994,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 709500,
+    "level": 2
+  },
+  {
+    "title": "Good Riddance (Time of Your Life)",
+    "artist": "Green Day",
+    "year": 1997,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 708000,
+    "level": 2
+  },
+  {
+    "title": "Black Hole Sun",
+    "artist": "Soundgarden",
+    "year": 1994,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 631500,
+    "level": 3
+  },
+  {
+    "title": "Black",
+    "artist": "Pearl Jam",
+    "year": 1991,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 690000,
+    "level": 3
+  },
+  {
+    "title": "Alive",
+    "artist": "Pearl Jam",
+    "year": 1991,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 688500,
+    "level": 3
+  },
+  {
+    "title": "Under the Bridge",
+    "artist": "Red Hot Chili Peppers",
+    "year": 1991,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 852000,
+    "level": 1
+  },
+  {
+    "title": "Give It Away",
+    "artist": "Red Hot Chili Peppers",
+    "year": 1991,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 760500,
+    "level": 2
+  },
+  {
+    "title": "Californication",
+    "artist": "Red Hot Chili Peppers",
+    "year": 1999,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 849000,
+    "level": 1
+  },
+  {
+    "title": "Scar Tissue",
+    "artist": "Red Hot Chili Peppers",
+    "year": 1999,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 757500,
+    "level": 2
+  },
+  {
+    "title": "Smoke on the Water",
+    "artist": "Deep Purple",
+    "year": 1972,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 756000,
+    "level": 2
+  },
+  {
+    "title": "Sweet Home Alabama",
+    "artist": "Lynyrd Skynyrd",
+    "year": 1974,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 754500,
+    "level": 2
+  },
+  {
+    "title": "Free Bird",
+    "artist": "Lynyrd Skynyrd",
+    "year": 1973,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 678000,
+    "level": 3
+  },
+  {
+    "title": "Purple Rain",
+    "artist": "Prince",
+    "year": 1984,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 751500,
+    "level": 2
+  },
+  {
+    "title": "Roxanne",
+    "artist": "The Police",
+    "year": 1978,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 748500,
+    "level": 2
+  },
+  {
+    "title": "With or Without You",
+    "artist": "U2",
+    "year": 1987,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 837000,
+    "level": 1
+  },
+  {
+    "title": "One",
+    "artist": "U2",
+    "year": 1991,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 745500,
+    "level": 2
+  },
+  {
+    "title": "Wish You Were Here",
+    "artist": "Pink Floyd",
+    "year": 1975,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 744000,
+    "level": 2
+  },
+  {
+    "title": "Another Brick in the Wall, Pt. 2",
+    "artist": "Pink Floyd",
+    "year": 1979,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 742500,
+    "level": 2
+  },
+  {
+    "title": "Money",
+    "artist": "Pink Floyd",
+    "year": 1973,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 664500,
+    "level": 3
+  },
+  {
+    "title": "Imagine",
+    "artist": "John Lennon",
+    "year": 1971,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 828000,
+    "level": 1
+  },
+  {
+    "title": "Hey Jude",
+    "artist": "The Beatles",
+    "year": 1968,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 826500,
+    "level": 1
+  },
+  {
+    "title": "Let It Be",
+    "artist": "The Beatles",
+    "year": 1970,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 825000,
+    "level": 1
+  },
+  {
+    "title": "Yesterday",
+    "artist": "The Beatles",
+    "year": 1965,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 823500,
+    "level": 1
+  },
+  {
+    "title": "Here Comes the Sun",
+    "artist": "The Beatles",
+    "year": 1969,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 822000,
+    "level": 1
+  },
+  {
+    "title": "Come Together",
+    "artist": "The Beatles",
+    "year": 1969,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 730500,
+    "level": 2
+  },
+  {
+    "title": "Paint It, Black",
+    "artist": "The Rolling Stones",
+    "year": 1966,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 729000,
+    "level": 2
+  },
+  {
+    "title": "Sympathy for the Devil",
+    "artist": "The Rolling Stones",
+    "year": 1968,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 652500,
+    "level": 3
+  },
+  {
+    "title": "Africa",
+    "artist": "Toto",
+    "year": 1982,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 816000,
+    "level": 1
+  },
+  {
+    "title": "Don't Stop Believin'",
+    "artist": "Journey",
+    "year": 1981,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 889500,
+    "level": 0
+  },
+  {
+    "title": "Eye of the Tiger",
+    "artist": "Survivor",
+    "year": 1982,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 813000,
+    "level": 1
+  },
+  {
+    "title": "Take On Me",
+    "artist": "a-ha",
+    "year": 1985,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 886500,
+    "level": 0
+  },
+  {
+    "title": "The Final Countdown",
+    "artist": "Europe",
+    "year": 1986,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 810000,
+    "level": 1
+  },
+  {
+    "title": "Jump",
+    "artist": "Van Halen",
+    "year": 1984,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 718500,
+    "level": 2
+  },
+  {
+    "title": "Dust in the Wind",
+    "artist": "Kansas",
+    "year": 1977,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 642000,
+    "level": 3
+  },
+  {
+    "title": "Carry On Wayward Son",
+    "artist": "Kansas",
+    "year": 1976,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 640500,
+    "level": 3
+  },
+  {
+    "title": "Bitter Sweet Symphony",
+    "artist": "The Verve",
+    "year": 1997,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 804000,
+    "level": 1
+  },
+  {
+    "title": "Song 2",
+    "artist": "Blur",
+    "year": 1997,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 802500,
+    "level": 1
+  },
+  {
+    "title": "Common People",
+    "artist": "Pulp",
+    "year": 1995,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 636000,
+    "level": 3
+  },
+  {
+    "title": "Everlong",
+    "artist": "Foo Fighters",
+    "year": 1997,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 709500,
+    "level": 2
+  },
+  {
+    "title": "Mr. Jones",
+    "artist": "Counting Crows",
+    "year": 1993,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 633000,
+    "level": 3
+  },
+  {
+    "title": "Iris",
+    "artist": "Goo Goo Dolls",
+    "year": 1998,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 796500,
+    "level": 1
+  },
+  {
+    "title": "Torn",
+    "artist": "Natalie Imbruglia",
+    "year": 1997,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 765000,
+    "level": 2
+  },
+  {
+    "title": "Tubthumping",
+    "artist": "Chumbawamba",
+    "year": 1997,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 688500,
+    "level": 3
+  },
+  {
+    "title": "Semi-Charmed Life",
+    "artist": "Third Eye Blind",
+    "year": 1997,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 687000,
+    "level": 3
+  },
+  {
+    "title": "Crazy Train",
+    "artist": "Ozzy Osbourne",
+    "year": 1980,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 760500,
+    "level": 2
+  },
+  {
+    "title": "Paranoid",
+    "artist": "Black Sabbath",
+    "year": 1970,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 684000,
+    "level": 3
+  },
+  {
+    "title": "Ace of Spades",
+    "artist": "Motörhead",
+    "year": 1980,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 682500,
+    "level": 3
+  },
+  {
+    "title": "Fortunate Son",
+    "artist": "Creedence Clearwater Revival",
+    "year": 1969,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 681000,
+    "level": 3
+  },
+  {
+    "title": "Have You Ever Seen the Rain?",
+    "artist": "Creedence Clearwater Revival",
+    "year": 1970,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 754500,
+    "level": 2
+  },
+  {
+    "title": "Bad Moon Rising",
+    "artist": "Creedence Clearwater Revival",
+    "year": 1969,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 678000,
+    "level": 3
+  },
+  {
+    "title": "Purple Haze",
+    "artist": "Jimi Hendrix",
+    "year": 1967,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 676500,
+    "level": 3
+  },
+  {
+    "title": "All Along the Watchtower",
+    "artist": "Jimi Hendrix",
+    "year": 1968,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 675000,
+    "level": 3
+  },
+  {
+    "title": "Light My Fire",
+    "artist": "The Doors",
+    "year": 1967,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 673500,
+    "level": 3
+  },
+  {
+    "title": "Riders on the Storm",
+    "artist": "The Doors",
+    "year": 1971,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 672000,
+    "level": 3
+  },
+  {
+    "title": "Go Your Own Way",
+    "artist": "Fleetwood Mac",
+    "year": 1977,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 745500,
+    "level": 2
+  },
+  {
+    "title": "Dreams",
+    "artist": "Fleetwood Mac",
+    "year": 1977,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 834000,
+    "level": 1
+  },
+  {
+    "title": "The Chain",
+    "artist": "Fleetwood Mac",
+    "year": 1977,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 742500,
+    "level": 2
+  },
+  {
+    "title": "Landslide",
+    "artist": "Fleetwood Mac",
+    "year": 1975,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 666000,
+    "level": 3
+  },
+  {
+    "title": "Rocket Man",
+    "artist": "Elton John",
+    "year": 1972,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 739500,
+    "level": 2
+  },
+  {
+    "title": "Your Song",
+    "artist": "Elton John",
+    "year": 1970,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 738000,
+    "level": 2
+  },
+  {
+    "title": "I'm Still Standing",
+    "artist": "Elton John",
+    "year": 1983,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 736500,
+    "level": 2
+  },
+  {
+    "title": "Tiny Dancer",
+    "artist": "Elton John",
+    "year": 1971,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 735000,
+    "level": 2
+  },
+  {
+    "title": "Mr. Blue Sky",
+    "artist": "Electric Light Orchestra",
+    "year": 1977,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 733500,
+    "level": 2
+  },
+  {
+    "title": "Livin' Thing",
+    "artist": "Electric Light Orchestra",
+    "year": 1976,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 657000,
+    "level": 3
+  },
+  {
+    "title": "Heroes",
+    "artist": "David Bowie",
+    "year": 1977,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 730500,
+    "level": 2
+  },
+  {
+    "title": "Space Oddity",
+    "artist": "David Bowie",
+    "year": 1969,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 729000,
+    "level": 2
+  },
+  {
+    "title": "Let's Dance",
+    "artist": "David Bowie",
+    "year": 1983,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 727500,
+    "level": 2
+  },
+  {
+    "title": "Life on Mars?",
+    "artist": "David Bowie",
+    "year": 1971,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 651000,
+    "level": 3
+  },
+  {
+    "title": "Pretty Fly (For a White Guy)",
+    "artist": "The Offspring",
+    "year": 1998,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 724500,
+    "level": 2
+  },
+  {
+    "title": "Self Esteem",
+    "artist": "The Offspring",
+    "year": 1994,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 648000,
+    "level": 3
+  },
+  {
+    "title": "Du Hast",
+    "artist": "Rammstein",
+    "year": 1997,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 721500,
+    "level": 2
+  },
+  {
+    "title": "All the Small Things",
+    "artist": "blink-182",
+    "year": 1999,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 810000,
+    "level": 1
+  },
+  {
+    "title": "What's My Age Again?",
+    "artist": "blink-182",
+    "year": 1999,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 718500,
+    "level": 2
+  },
+  {
+    "title": "Hallelujah",
+    "artist": "Jeff Buckley",
+    "year": 1994,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 717000,
+    "level": 2
+  },
+  {
+    "title": "Fast Car",
+    "artist": "Tracy Chapman",
+    "year": 1988,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 805500,
+    "level": 1
+  },
+  {
+    "title": "Blue Monday",
+    "artist": "New Order",
+    "year": 1983,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 714000,
+    "level": 2
+  },
+  {
+    "title": "Just Can't Get Enough",
+    "artist": "Depeche Mode",
+    "year": 1981,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 712500,
+    "level": 2
+  },
+  {
+    "title": "Personal Jesus",
+    "artist": "Depeche Mode",
+    "year": 1989,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 711000,
+    "level": 2
+  },
+  {
+    "title": "Enjoy the Silence",
+    "artist": "Depeche Mode",
+    "year": 1990,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 709500,
+    "level": 2
+  },
+  {
+    "title": "Just Like Heaven",
+    "artist": "The Cure",
+    "year": 1987,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 708000,
+    "level": 2
+  },
+  {
+    "title": "Friday I'm in Love",
+    "artist": "The Cure",
+    "year": 1992,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 706500,
+    "level": 2
+  },
+  {
+    "title": "Boys Don't Cry",
+    "artist": "The Cure",
+    "year": 1979,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 690000,
+    "level": 3
+  },
+  {
+    "title": "Love Will Tear Us Apart",
+    "artist": "Joy Division",
+    "year": 1980,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 688500,
+    "level": 3
+  },
+  {
+    "title": "There Is a Light That Never Goes Out",
+    "artist": "The Smiths",
+    "year": 1986,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 687000,
+    "level": 3
+  },
+  {
+    "title": "How Soon Is Now?",
+    "artist": "The Smiths",
+    "year": 1984,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 685500,
+    "level": 3
+  },
+  {
+    "title": "Billie Jean",
+    "artist": "Michael Jackson",
+    "year": 1982,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 924000,
+    "level": 0
+  },
+  {
+    "title": "Thriller",
+    "artist": "Michael Jackson",
+    "year": 1982,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 922500,
+    "level": 0
+  },
+  {
+    "title": "Beat It",
+    "artist": "Michael Jackson",
+    "year": 1982,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 846000,
+    "level": 1
+  },
+  {
+    "title": "Smooth Criminal",
+    "artist": "Michael Jackson",
+    "year": 1987,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 844500,
+    "level": 1
+  },
+  {
+    "title": "Man in the Mirror",
+    "artist": "Michael Jackson",
+    "year": 1987,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 753000,
+    "level": 2
+  },
+  {
+    "title": "Black or White",
+    "artist": "Michael Jackson",
+    "year": 1991,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 751500,
+    "level": 2
+  },
+  {
+    "title": "Don't Stop 'Til You Get Enough",
+    "artist": "Michael Jackson",
+    "year": 1979,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 750000,
+    "level": 2
+  },
+  {
+    "title": "Like a Prayer",
+    "artist": "Madonna",
+    "year": 1989,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 838500,
+    "level": 1
+  },
+  {
+    "title": "Vogue",
+    "artist": "Madonna",
+    "year": 1990,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 747000,
+    "level": 2
+  },
+  {
+    "title": "Material Girl",
+    "artist": "Madonna",
+    "year": 1984,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 745500,
+    "level": 2
+  },
+  {
+    "title": "La Isla Bonita",
+    "artist": "Madonna",
+    "year": 1987,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 744000,
+    "level": 2
+  },
+  {
+    "title": "I Wanna Dance with Somebody (Who Loves Me)",
+    "artist": "Whitney Houston",
+    "year": 1987,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 832500,
+    "level": 1
+  },
+  {
+    "title": "I Will Always Love You",
+    "artist": "Whitney Houston",
+    "year": 1992,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 831000,
+    "level": 1
+  },
+  {
+    "title": "Girls Just Want to Have Fun",
+    "artist": "Cyndi Lauper",
+    "year": 1983,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 739500,
+    "level": 2
+  },
+  {
+    "title": "Time After Time",
+    "artist": "Cyndi Lauper",
+    "year": 1983,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 738000,
+    "level": 2
+  },
+  {
+    "title": "Sweet Dreams (Are Made of This)",
+    "artist": "Eurythmics",
+    "year": 1983,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 826500,
+    "level": 1
+  },
+  {
+    "title": "Careless Whisper",
+    "artist": "George Michael",
+    "year": 1984,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 825000,
+    "level": 1
+  },
+  {
+    "title": "Faith",
+    "artist": "George Michael",
+    "year": 1987,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 733500,
+    "level": 2
+  },
+  {
+    "title": "Last Christmas",
+    "artist": "Wham!",
+    "year": 1984,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 822000,
+    "level": 1
+  },
+  {
+    "title": "Wake Me Up Before You Go-Go",
+    "artist": "Wham!",
+    "year": 1984,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 730500,
+    "level": 2
+  },
+  {
+    "title": "Everybody Wants to Rule the World",
+    "artist": "Tears for Fears",
+    "year": 1985,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 729000,
+    "level": 2
+  },
+  {
+    "title": "Karma Chameleon",
+    "artist": "Culture Club",
+    "year": 1983,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 727500,
+    "level": 2
+  },
+  {
+    "title": "Tainted Love",
+    "artist": "Soft Cell",
+    "year": 1981,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 726000,
+    "level": 2
+  },
+  {
+    "title": "Never Gonna Give You Up",
+    "artist": "Rick Astley",
+    "year": 1987,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 814500,
+    "level": 1
+  },
+  {
+    "title": "Total Eclipse of the Heart",
+    "artist": "Bonnie Tyler",
+    "year": 1983,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 723000,
+    "level": 2
+  },
+  {
+    "title": "Hungry Like the Wolf",
+    "artist": "Duran Duran",
+    "year": 1982,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 721500,
+    "level": 2
+  },
+  {
+    "title": "Sweet Caroline",
+    "artist": "Neil Diamond",
+    "year": 1969,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 720000,
+    "level": 2
+  },
+  {
+    "title": "Take Me Home, Country Roads",
+    "artist": "John Denver",
+    "year": 1971,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 718500,
+    "level": 2
+  },
+  {
+    "title": "Dancing Queen",
+    "artist": "ABBA",
+    "year": 1976,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 882000,
+    "level": 0
+  },
+  {
+    "title": "Mamma Mia",
+    "artist": "ABBA",
+    "year": 1975,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 805500,
+    "level": 1
+  },
+  {
+    "title": "Gimme! Gimme! Gimme! (A Man After Midnight)",
+    "artist": "ABBA",
+    "year": 1979,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 714000,
+    "level": 2
+  },
+  {
+    "title": "Waterloo",
+    "artist": "ABBA",
+    "year": 1974,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 712500,
+    "level": 2
+  },
+  {
+    "title": "Super Trouper",
+    "artist": "ABBA",
+    "year": 1980,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 636000,
+    "level": 3
+  },
+  {
+    "title": "Stayin' Alive",
+    "artist": "Bee Gees",
+    "year": 1977,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 799500,
+    "level": 1
+  },
+  {
+    "title": "How Deep Is Your Love",
+    "artist": "Bee Gees",
+    "year": 1977,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 708000,
+    "level": 2
+  },
+  {
+    "title": "September",
+    "artist": "Earth, Wind & Fire",
+    "year": 1978,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 796500,
+    "level": 1
+  },
+  {
+    "title": "I Will Survive",
+    "artist": "Gloria Gaynor",
+    "year": 1978,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 855000,
+    "level": 1
+  },
+  {
+    "title": "...Baby One More Time",
+    "artist": "Britney Spears",
+    "year": 1998,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 928500,
+    "level": 0
+  },
+  {
+    "title": "Wannabe",
+    "artist": "Spice Girls",
+    "year": 1996,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 852000,
+    "level": 1
+  },
+  {
+    "title": "I Want It That Way",
+    "artist": "Backstreet Boys",
+    "year": 1999,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 850500,
+    "level": 1
+  },
+  {
+    "title": "Everybody (Backstreet's Back)",
+    "artist": "Backstreet Boys",
+    "year": 1997,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 759000,
+    "level": 2
+  },
+  {
+    "title": "No Scrubs",
+    "artist": "TLC",
+    "year": 1999,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 757500,
+    "level": 2
+  },
+  {
+    "title": "Waterfalls",
+    "artist": "TLC",
+    "year": 1994,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 756000,
+    "level": 2
+  },
+  {
+    "title": "My Heart Will Go On",
+    "artist": "Céline Dion",
+    "year": 1997,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 844500,
+    "level": 1
+  },
+  {
+    "title": "Genie in a Bottle",
+    "artist": "Christina Aguilera",
+    "year": 1999,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 753000,
+    "level": 2
+  },
+  {
+    "title": "Believe",
+    "artist": "Cher",
+    "year": 1998,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 751500,
+    "level": 2
+  },
+  {
+    "title": "Hero",
+    "artist": "Mariah Carey",
+    "year": 1993,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 750000,
+    "level": 2
+  },
+  {
+    "title": "Fantasy",
+    "artist": "Mariah Carey",
+    "year": 1995,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 748500,
+    "level": 2
+  },
+  {
+    "title": "Truly Madly Deeply",
+    "artist": "Savage Garden",
+    "year": 1997,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 747000,
+    "level": 2
+  },
+  {
+    "title": "Kiss from a Rose",
+    "artist": "Seal",
+    "year": 1994,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 745500,
+    "level": 2
+  },
+  {
+    "title": "Tears in Heaven",
+    "artist": "Eric Clapton",
+    "year": 1992,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 744000,
+    "level": 2
+  },
+  {
+    "title": "Wind of Change",
+    "artist": "Scorpions",
+    "year": 1990,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 742500,
+    "level": 2
+  },
+  {
+    "title": "Barbie Girl",
+    "artist": "Aqua",
+    "year": 1997,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 831000,
+    "level": 1
+  },
+  {
+    "title": "Macarena",
+    "artist": "Los del Río",
+    "year": 1993,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 739500,
+    "level": 2
+  },
+  {
+    "title": "Smooth",
+    "artist": "Santana",
+    "year": 1999,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 738000,
+    "level": 2
+  },
+  {
+    "title": "Livin' la Vida Loca",
+    "artist": "Ricky Martin",
+    "year": 1999,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 826500,
+    "level": 1
+  },
+  {
+    "title": "María",
+    "artist": "Ricky Martin",
+    "year": 1995,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 735000,
+    "level": 2
+  },
+  {
+    "title": "La Copa de la Vida",
+    "artist": "Ricky Martin",
+    "year": 1998,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 733500,
+    "level": 2
+  },
+  {
+    "title": "Bailamos",
+    "artist": "Enrique Iglesias",
+    "year": 1999,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 732000,
+    "level": 2
+  },
+  {
+    "title": "Ojos Así",
+    "artist": "Shakira",
+    "year": 1998,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 655500,
+    "level": 3
+  },
+  {
+    "title": "Bamboleo",
+    "artist": "Gipsy Kings",
+    "year": 1987,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 654000,
+    "level": 3
+  },
+  {
+    "title": "Juicy",
+    "artist": "The Notorious B.I.G.",
+    "year": 1994,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 817500,
+    "level": 1
+  },
+  {
+    "title": "Hypnotize",
+    "artist": "The Notorious B.I.G.",
+    "year": 1997,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 726000,
+    "level": 2
+  },
+  {
+    "title": "California Love",
+    "artist": "2Pac",
+    "year": 1995,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 814500,
+    "level": 1
+  },
+  {
+    "title": "Changes",
+    "artist": "2Pac",
+    "year": 1998,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 723000,
+    "level": 2
+  },
+  {
+    "title": "Dear Mama",
+    "artist": "2Pac",
+    "year": 1995,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 721500,
+    "level": 2
+  },
+  {
+    "title": "Gin and Juice",
+    "artist": "Snoop Dogg",
+    "year": 1994,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 720000,
+    "level": 2
+  },
+  {
+    "title": "Nuthin' but a 'G' Thang",
+    "artist": "Dr. Dre",
+    "year": 1992,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 718500,
+    "level": 2
+  },
+  {
+    "title": "Still D.R.E.",
+    "artist": "Dr. Dre",
+    "year": 1999,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 807000,
+    "level": 1
+  },
+  {
+    "title": "Regulate",
+    "artist": "Warren G",
+    "year": 1994,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 640500,
+    "level": 3
+  },
+  {
+    "title": "Gangsta's Paradise",
+    "artist": "Coolio",
+    "year": 1995,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 804000,
+    "level": 1
+  },
+  {
+    "title": "Ice Ice Baby",
+    "artist": "Vanilla Ice",
+    "year": 1990,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 802500,
+    "level": 1
+  },
+  {
+    "title": "U Can't Touch This",
+    "artist": "MC Hammer",
+    "year": 1990,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 711000,
+    "level": 2
+  },
+  {
+    "title": "Jump Around",
+    "artist": "House of Pain",
+    "year": 1992,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 709500,
+    "level": 2
+  },
+  {
+    "title": "Rapper's Delight",
+    "artist": "The Sugarhill Gang",
+    "year": 1979,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 633000,
+    "level": 3
+  },
+  {
+    "title": "Fight the Power",
+    "artist": "Public Enemy",
+    "year": 1989,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 631500,
+    "level": 3
+  },
+  {
+    "title": "Sabotage",
+    "artist": "Beastie Boys",
+    "year": 1994,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 690000,
+    "level": 3
+  },
+  {
+    "title": "Killing Me Softly With His Song",
+    "artist": "Fugees",
+    "year": 1996,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 763500,
+    "level": 2
+  },
+  {
+    "title": "Ready or Not",
+    "artist": "Fugees",
+    "year": 1996,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 687000,
+    "level": 3
+  },
+  {
+    "title": "Ex-Factor",
+    "artist": "Lauryn Hill",
+    "year": 1998,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 685500,
+    "level": 3
+  },
+  {
+    "title": "Doo Wop (That Thing)",
+    "artist": "Lauryn Hill",
+    "year": 1998,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 684000,
+    "level": 3
+  },
+  {
+    "title": "I Want You Back",
+    "artist": "Jackson 5",
+    "year": 1969,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 682500,
+    "level": 3
+  },
+  {
+    "title": "ABC",
+    "artist": "Jackson 5",
+    "year": 1970,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 681000,
+    "level": 3
+  },
+  {
+    "title": "What's Going On",
+    "artist": "Marvin Gaye",
+    "year": 1971,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 754500,
+    "level": 2
+  },
+  {
+    "title": "Let's Get It On",
+    "artist": "Marvin Gaye",
+    "year": 1973,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 753000,
+    "level": 2
+  },
+  {
+    "title": "I Heard It Through the Grapevine",
+    "artist": "Marvin Gaye",
+    "year": 1968,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 676500,
+    "level": 3
+  },
+  {
+    "title": "Sexual Healing",
+    "artist": "Marvin Gaye",
+    "year": 1982,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 675000,
+    "level": 3
+  },
+  {
+    "title": "Respect",
+    "artist": "Aretha Franklin",
+    "year": 1967,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 748500,
+    "level": 2
+  },
+  {
+    "title": "Superstition",
+    "artist": "Stevie Wonder",
+    "year": 1972,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 747000,
+    "level": 2
+  },
+  {
+    "title": "Isn't She Lovely",
+    "artist": "Stevie Wonder",
+    "year": 1976,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 745500,
+    "level": 2
+  },
+  {
+    "title": "Sir Duke",
+    "artist": "Stevie Wonder",
+    "year": 1976,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 669000,
+    "level": 3
+  },
+  {
+    "title": "I Just Called to Say I Love You",
+    "artist": "Stevie Wonder",
+    "year": 1984,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 742500,
+    "level": 2
+  },
+  {
+    "title": "Ain't No Sunshine",
+    "artist": "Bill Withers",
+    "year": 1971,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 741000,
+    "level": 2
+  },
+  {
+    "title": "Lean on Me",
+    "artist": "Bill Withers",
+    "year": 1972,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 739500,
+    "level": 2
+  },
+  {
+    "title": "Lovely Day",
+    "artist": "Bill Withers",
+    "year": 1977,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 738000,
+    "level": 2
+  },
+  {
+    "title": "Let's Stay Together",
+    "artist": "Al Green",
+    "year": 1972,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 661500,
+    "level": 3
+  },
+  {
+    "title": "Kiss",
+    "artist": "Prince",
+    "year": 1986,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 735000,
+    "level": 2
+  },
+  {
+    "title": "When Doves Cry",
+    "artist": "Prince",
+    "year": 1984,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 733500,
+    "level": 2
+  },
+  {
+    "title": "No Diggity",
+    "artist": "Blackstreet",
+    "year": 1996,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 732000,
+    "level": 2
+  },
+  {
+    "title": "End of the Road",
+    "artist": "Boyz II Men",
+    "year": 1992,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 730500,
+    "level": 2
+  },
+  {
+    "title": "Un-Break My Heart",
+    "artist": "Toni Braxton",
+    "year": 1996,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 729000,
+    "level": 2
+  },
+  {
+    "title": "Ain't Nobody",
+    "artist": "Chaka Khan",
+    "year": 1983,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 652500,
+    "level": 3
+  },
+  {
+    "title": "I Believe I Can Fly",
+    "artist": "R. Kelly",
+    "year": 1996,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 726000,
+    "level": 2
+  },
+  {
+    "title": "Around the World",
+    "artist": "Daft Punk",
+    "year": 1997,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 724500,
+    "level": 2
+  },
+  {
+    "title": "Firestarter",
+    "artist": "The Prodigy",
+    "year": 1996,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 648000,
+    "level": 3
+  },
+  {
+    "title": "Insomnia",
+    "artist": "Faithless",
+    "year": 1995,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 646500,
+    "level": 3
+  },
+  {
+    "title": "Born Slippy .NUXX",
+    "artist": "Underworld",
+    "year": 1996,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 645000,
+    "level": 3
+  },
+  {
+    "title": "Blue (Da Ba Dee)",
+    "artist": "Eiffel 65",
+    "year": 1998,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 808500,
+    "level": 1
+  },
+  {
+    "title": "Sandstorm",
+    "artist": "Darude",
+    "year": 1999,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 807000,
+    "level": 1
+  },
+  {
+    "title": "Children",
+    "artist": "Robert Miles",
+    "year": 1995,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 640500,
+    "level": 3
+  },
+  {
+    "title": "What Is Love",
+    "artist": "Haddaway",
+    "year": 1993,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 804000,
+    "level": 1
+  },
+  {
+    "title": "Rhythm Is a Dancer",
+    "artist": "Snap!",
+    "year": 1992,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 637500,
+    "level": 3
+  },
+  {
+    "title": "No Limit",
+    "artist": "2 Unlimited",
+    "year": 1993,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 711000,
+    "level": 2
+  },
+  {
+    "title": "Pump Up the Jam",
+    "artist": "Technotronic",
+    "year": 1989,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 634500,
+    "level": 3
+  },
+  {
+    "title": "Cotton Eye Joe",
+    "artist": "Rednex",
+    "year": 1994,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 708000,
+    "level": 2
+  },
+  {
+    "title": "Oops!... I Did It Again",
+    "artist": "Britney Spears",
+    "year": 2000,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 796500,
+    "level": 1
+  },
+  {
+    "title": "Toxic",
+    "artist": "Britney Spears",
+    "year": 2003,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 855000,
+    "level": 1
+  },
+  {
+    "title": "Womanizer",
+    "artist": "Britney Spears",
+    "year": 2008,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 853500,
+    "level": 1
+  },
+  {
+    "title": "Gimme More",
+    "artist": "Britney Spears",
+    "year": 2007,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 762000,
+    "level": 2
+  },
+  {
+    "title": "Everytime",
+    "artist": "Britney Spears",
+    "year": 2003,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 760500,
+    "level": 2
+  },
+  {
+    "title": "Circus",
+    "artist": "Britney Spears",
+    "year": 2008,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 684000,
+    "level": 3
+  },
+  {
+    "title": "Crazy in Love",
+    "artist": "Beyoncé",
+    "year": 2003,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 847500,
+    "level": 1
+  },
+  {
+    "title": "Single Ladies (Put a Ring on It)",
+    "artist": "Beyoncé",
+    "year": 2008,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 921000,
+    "level": 0
+  },
+  {
+    "title": "Irreplaceable",
+    "artist": "Beyoncé",
+    "year": 2006,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 754500,
+    "level": 2
+  },
+  {
+    "title": "Halo",
+    "artist": "Beyoncé",
+    "year": 2008,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 843000,
+    "level": 1
+  },
+  {
+    "title": "If I Were a Boy",
+    "artist": "Beyoncé",
+    "year": 2008,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 751500,
+    "level": 2
+  },
+  {
+    "title": "Baby Boy",
+    "artist": "Beyoncé",
+    "year": 2003,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 675000,
+    "level": 3
+  },
+  {
+    "title": "SOS",
+    "artist": "Rihanna",
+    "year": 2006,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 747000,
+    "level": 2
+  },
+  {
+    "title": "Don't Stop the Music",
+    "artist": "Rihanna",
+    "year": 2007,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 745500,
+    "level": 2
+  },
+  {
+    "title": "Disturbia",
+    "artist": "Rihanna",
+    "year": 2008,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 744000,
+    "level": 2
+  },
+  {
+    "title": "Take a Bow",
+    "artist": "Rihanna",
+    "year": 2008,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 667500,
+    "level": 3
+  },
+  {
+    "title": "Hey Ya!",
+    "artist": "OutKast",
+    "year": 2003,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 831000,
+    "level": 1
+  },
+  {
+    "title": "Ms. Jackson",
+    "artist": "OutKast",
+    "year": 2000,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 739500,
+    "level": 2
+  },
+  {
+    "title": "Roses",
+    "artist": "OutKast",
+    "year": 2003,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 663000,
+    "level": 3
+  },
+  {
+    "title": "Lose Yourself",
+    "artist": "Eminem",
+    "year": 2002,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 901500,
+    "level": 0
+  },
+  {
+    "title": "The Real Slim Shady",
+    "artist": "Eminem",
+    "year": 2000,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 825000,
+    "level": 1
+  },
+  {
+    "title": "Without Me",
+    "artist": "Eminem",
+    "year": 2002,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 823500,
+    "level": 1
+  },
+  {
+    "title": "Stan",
+    "artist": "Eminem",
+    "year": 2000,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 732000,
+    "level": 2
+  },
+  {
+    "title": "Mockingbird",
+    "artist": "Eminem",
+    "year": 2004,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 730500,
+    "level": 2
+  },
+  {
+    "title": "Cleanin' Out My Closet",
+    "artist": "Eminem",
+    "year": 2002,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 654000,
+    "level": 3
+  },
+  {
+    "title": "In da Club",
+    "artist": "50 Cent",
+    "year": 2003,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 817500,
+    "level": 1
+  },
+  {
+    "title": "Candy Shop",
+    "artist": "50 Cent",
+    "year": 2005,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 726000,
+    "level": 2
+  },
+  {
+    "title": "P.I.M.P.",
+    "artist": "50 Cent",
+    "year": 2003,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 649500,
+    "level": 3
+  },
+  {
+    "title": "Gold Digger",
+    "artist": "Kanye West",
+    "year": 2005,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 813000,
+    "level": 1
+  },
+  {
+    "title": "Stronger",
+    "artist": "Kanye West",
+    "year": 2007,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 811500,
+    "level": 1
+  },
+  {
+    "title": "Heartless",
+    "artist": "Kanye West",
+    "year": 2008,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 720000,
+    "level": 2
+  },
+  {
+    "title": "Jesus Walks",
+    "artist": "Kanye West",
+    "year": 2004,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 643500,
+    "level": 3
+  },
+  {
+    "title": "Empire State of Mind",
+    "artist": "JAY-Z",
+    "year": 2009,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 807000,
+    "level": 1
+  },
+  {
+    "title": "99 Problems",
+    "artist": "JAY-Z",
+    "year": 2003,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 715500,
+    "level": 2
+  },
+  {
+    "title": "Lollipop",
+    "artist": "Lil Wayne",
+    "year": 2008,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 714000,
+    "level": 2
+  },
+  {
+    "title": "A Milli",
+    "artist": "Lil Wayne",
+    "year": 2008,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 712500,
+    "level": 2
+  },
+  {
+    "title": "Drop It Like It's Hot",
+    "artist": "Snoop Dogg",
+    "year": 2004,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 711000,
+    "level": 2
+  },
+  {
+    "title": "Dilemma",
+    "artist": "Nelly",
+    "year": 2002,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 709500,
+    "level": 2
+  },
+  {
+    "title": "Hot in Herre",
+    "artist": "Nelly",
+    "year": 2002,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 708000,
+    "level": 2
+  },
+  {
+    "title": "Get Ur Freak On",
+    "artist": "Missy Elliott",
+    "year": 2001,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 706500,
+    "level": 2
+  },
+  {
+    "title": "Work It",
+    "artist": "Missy Elliott",
+    "year": 2002,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 765000,
+    "level": 2
+  },
+  {
+    "title": "Lose Control",
+    "artist": "Missy Elliott",
+    "year": 2005,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 763500,
+    "level": 2
+  },
+  {
+    "title": "Yeah!",
+    "artist": "Usher",
+    "year": 2004,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 852000,
+    "level": 1
+  },
+  {
+    "title": "Burn",
+    "artist": "Usher",
+    "year": 2004,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 685500,
+    "level": 3
+  },
+  {
+    "title": "Love in This Club",
+    "artist": "Usher",
+    "year": 2008,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 759000,
+    "level": 2
+  },
+  {
+    "title": "Hips Don't Lie",
+    "artist": "Shakira",
+    "year": 2006,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 847500,
+    "level": 1
+  },
+  {
+    "title": "Whenever, Wherever",
+    "artist": "Shakira",
+    "year": 2001,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 846000,
+    "level": 1
+  },
+  {
+    "title": "La Tortura",
+    "artist": "Shakira",
+    "year": 2005,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 754500,
+    "level": 2
+  },
+  {
+    "title": "Gasolina",
+    "artist": "Daddy Yankee",
+    "year": 2004,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 843000,
+    "level": 1
+  },
+  {
+    "title": "Obsesión",
+    "artist": "Aventura",
+    "year": 2002,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 751500,
+    "level": 2
+  },
+  {
+    "title": "Since U Been Gone",
+    "artist": "Kelly Clarkson",
+    "year": 2004,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 840000,
+    "level": 1
+  },
+  {
+    "title": "Because of You",
+    "artist": "Kelly Clarkson",
+    "year": 2005,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 748500,
+    "level": 2
+  },
+  {
+    "title": "Complicated",
+    "artist": "Avril Lavigne",
+    "year": 2002,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 837000,
+    "level": 1
+  },
+  {
+    "title": "Sk8er Boi",
+    "artist": "Avril Lavigne",
+    "year": 2002,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 835500,
+    "level": 1
+  },
+  {
+    "title": "Girlfriend",
+    "artist": "Avril Lavigne",
+    "year": 2007,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 744000,
+    "level": 2
+  },
+  {
+    "title": "London Bridge",
+    "artist": "Fergie",
+    "year": 2006,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 742500,
+    "level": 2
+  },
+  {
+    "title": "Big Girls Don't Cry",
+    "artist": "Fergie",
+    "year": 2006,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 741000,
+    "level": 2
+  },
+  {
+    "title": "My Humps",
+    "artist": "Black Eyed Peas",
+    "year": 2005,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 739500,
+    "level": 2
+  },
+  {
+    "title": "Where Is the Love?",
+    "artist": "Black Eyed Peas",
+    "year": 2003,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 738000,
+    "level": 2
+  },
+  {
+    "title": "I Gotta Feeling",
+    "artist": "Black Eyed Peas",
+    "year": 2009,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 826500,
+    "level": 1
+  },
+  {
+    "title": "Boom Boom Pow",
+    "artist": "Black Eyed Peas",
+    "year": 2009,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 735000,
+    "level": 2
+  },
+  {
+    "title": "Just Dance",
+    "artist": "Lady Gaga",
+    "year": 2008,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 822000,
+    "level": 1
+  },
+  {
+    "title": "Paparazzi",
+    "artist": "Lady Gaga",
+    "year": 2009,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 729000,
+    "level": 2
+  },
+  {
+    "title": "You Belong with Me",
+    "artist": "Taylor Swift",
+    "year": 2009,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 816000,
+    "level": 1
+  },
+  {
+    "title": "Fix You",
+    "artist": "Coldplay",
+    "year": 2005,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 810000,
+    "level": 1
+  },
+  {
+    "title": "Mr. Brightside",
+    "artist": "The Killers",
+    "year": 2004,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 882000,
+    "level": 0
+  },
+  {
+    "title": "Somebody Told Me",
+    "artist": "The Killers",
+    "year": 2004,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 715500,
+    "level": 2
+  },
+  {
+    "title": "When You Were Young",
+    "artist": "The Killers",
+    "year": 2006,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 714000,
+    "level": 2
+  },
+  {
+    "title": "Human",
+    "artist": "The Killers",
+    "year": 2008,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 712500,
+    "level": 2
+  },
+  {
+    "title": "Seven Nation Army",
+    "artist": "The White Stripes",
+    "year": 2003,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 801000,
+    "level": 1
+  },
+  {
+    "title": "Take Me Out",
+    "artist": "Franz Ferdinand",
+    "year": 2004,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 709500,
+    "level": 2
+  },
+  {
+    "title": "I Bet You Look Good on the Dancefloor",
+    "artist": "Arctic Monkeys",
+    "year": 2005,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 708000,
+    "level": 2
+  },
+  {
+    "title": "In the End",
+    "artist": "Linkin Park",
+    "year": 2001,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 871500,
+    "level": 0
+  },
+  {
+    "title": "Numb",
+    "artist": "Linkin Park",
+    "year": 2003,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 930000,
+    "level": 0
+  },
+  {
+    "title": "Crawling",
+    "artist": "Linkin Park",
+    "year": 2001,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 763500,
+    "level": 2
+  },
+  {
+    "title": "One Step Closer",
+    "artist": "Linkin Park",
+    "year": 2001,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 762000,
+    "level": 2
+  },
+  {
+    "title": "What I've Done",
+    "artist": "Linkin Park",
+    "year": 2007,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 760500,
+    "level": 2
+  },
+  {
+    "title": "Faint",
+    "artist": "Linkin Park",
+    "year": 2003,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 759000,
+    "level": 2
+  },
+  {
+    "title": "Breaking the Habit",
+    "artist": "Linkin Park",
+    "year": 2003,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 757500,
+    "level": 2
+  },
+  {
+    "title": "Last Resort",
+    "artist": "Papa Roach",
+    "year": 2000,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 756000,
+    "level": 2
+  },
+  {
+    "title": "My Immortal",
+    "artist": "Evanescence",
+    "year": 2003,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 843000,
+    "level": 1
+  },
+  {
+    "title": "Chop Suey!",
+    "artist": "System of a Down",
+    "year": 2001,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 751500,
+    "level": 2
+  },
+  {
+    "title": "Toxicity",
+    "artist": "System of a Down",
+    "year": 2001,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 750000,
+    "level": 2
+  },
+  {
+    "title": "American Idiot",
+    "artist": "Green Day",
+    "year": 2004,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 838500,
+    "level": 1
+  },
+  {
+    "title": "Boulevard of Broken Dreams",
+    "artist": "Green Day",
+    "year": 2004,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 837000,
+    "level": 1
+  },
+  {
+    "title": "Wake Me Up When September Ends",
+    "artist": "Green Day",
+    "year": 2004,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 745500,
+    "level": 2
+  },
+  {
+    "title": "Holiday",
+    "artist": "Green Day",
+    "year": 2004,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 669000,
+    "level": 3
+  },
+  {
+    "title": "Welcome to the Black Parade",
+    "artist": "My Chemical Romance",
+    "year": 2006,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 832500,
+    "level": 1
+  },
+  {
+    "title": "I'm Not Okay (I Promise)",
+    "artist": "My Chemical Romance",
+    "year": 2004,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 741000,
+    "level": 2
+  },
+  {
+    "title": "Helena",
+    "artist": "My Chemical Romance",
+    "year": 2004,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 664500,
+    "level": 3
+  },
+  {
+    "title": "Sugar, We're Goin Down",
+    "artist": "Fall Out Boy",
+    "year": 2005,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 738000,
+    "level": 2
+  },
+  {
+    "title": "Dance, Dance",
+    "artist": "Fall Out Boy",
+    "year": 2005,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 661500,
+    "level": 3
+  },
+  {
+    "title": "Misery Business",
+    "artist": "Paramore",
+    "year": 2007,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 825000,
+    "level": 1
+  },
+  {
+    "title": "I Miss You",
+    "artist": "blink-182",
+    "year": 2003,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 733500,
+    "level": 2
+  },
+  {
+    "title": "Dani California",
+    "artist": "Red Hot Chili Peppers",
+    "year": 2006,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 732000,
+    "level": 2
+  },
+  {
+    "title": "Can't Stop",
+    "artist": "Red Hot Chili Peppers",
+    "year": 2002,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 730500,
+    "level": 2
+  },
+  {
+    "title": "Use Somebody",
+    "artist": "Kings of Leon",
+    "year": 2008,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 819000,
+    "level": 1
+  },
+  {
+    "title": "Sex on Fire",
+    "artist": "Kings of Leon",
+    "year": 2008,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 817500,
+    "level": 1
+  },
+  {
+    "title": "Dog Days Are Over",
+    "artist": "Florence + The Machine",
+    "year": 2008,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 726000,
+    "level": 2
+  },
+  {
+    "title": "Kids",
+    "artist": "MGMT",
+    "year": 2007,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 814500,
+    "level": 1
+  },
+  {
+    "title": "Electric Feel",
+    "artist": "MGMT",
+    "year": 2007,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 723000,
+    "level": 2
+  },
+  {
+    "title": "Chasing Cars",
+    "artist": "Snow Patrol",
+    "year": 2006,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 811500,
+    "level": 1
+  },
+  {
+    "title": "Mad World",
+    "artist": "Gary Jules",
+    "year": 2001,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 645000,
+    "level": 3
+  },
+  {
+    "title": "You're Beautiful",
+    "artist": "James Blunt",
+    "year": 2005,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 808500,
+    "level": 1
+  },
+  {
+    "title": "Rehab",
+    "artist": "Amy Winehouse",
+    "year": 2006,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 807000,
+    "level": 1
+  },
+  {
+    "title": "Back to Black",
+    "artist": "Amy Winehouse",
+    "year": 2006,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 715500,
+    "level": 2
+  },
+  {
+    "title": "Chasing Pavements",
+    "artist": "Adele",
+    "year": 2008,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 714000,
+    "level": 2
+  },
+  {
+    "title": "Apologize",
+    "artist": "OneRepublic",
+    "year": 2007,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 802500,
+    "level": 1
+  },
+  {
+    "title": "Bleeding Love",
+    "artist": "Leona Lewis",
+    "year": 2007,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 711000,
+    "level": 2
+  },
+  {
+    "title": "Cry Me a River",
+    "artist": "Justin Timberlake",
+    "year": 2002,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 799500,
+    "level": 1
+  },
+  {
+    "title": "SexyBack",
+    "artist": "Justin Timberlake",
+    "year": 2006,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 798000,
+    "level": 1
+  },
+  {
+    "title": "What Goes Around... Comes Around",
+    "artist": "Justin Timberlake",
+    "year": 2006,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 706500,
+    "level": 2
+  },
+  {
+    "title": "Bye Bye Bye",
+    "artist": "NSYNC",
+    "year": 2000,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 855000,
+    "level": 1
+  },
+  {
+    "title": "It's Gonna Be Me",
+    "artist": "NSYNC",
+    "year": 2000,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 763500,
+    "level": 2
+  },
+  {
+    "title": "I'm Yours",
+    "artist": "Jason Mraz",
+    "year": 2008,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 852000,
+    "level": 1
+  },
+  {
+    "title": "Bubbly",
+    "artist": "Colbie Caillat",
+    "year": 2007,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 760500,
+    "level": 2
+  },
+  {
+    "title": "Unwritten",
+    "artist": "Natasha Bedingfield",
+    "year": 2004,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 759000,
+    "level": 2
+  },
+  {
+    "title": "Beautiful Day",
+    "artist": "U2",
+    "year": 2000,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 757500,
+    "level": 2
+  },
+  {
+    "title": "Vertigo",
+    "artist": "U2",
+    "year": 2004,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 756000,
+    "level": 2
+  },
+  {
+    "title": "How You Remind Me",
+    "artist": "Nickelback",
+    "year": 2001,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 844500,
+    "level": 1
+  },
+  {
+    "title": "Photograph",
+    "artist": "Nickelback",
+    "year": 2005,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 753000,
+    "level": 2
+  },
+  {
+    "title": "Kryptonite",
+    "artist": "3 Doors Down",
+    "year": 2000,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 751500,
+    "level": 2
+  },
+  {
+    "title": "Here Without You",
+    "artist": "3 Doors Down",
+    "year": 2002,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 750000,
+    "level": 2
+  },
+  {
+    "title": "The Reason",
+    "artist": "Hoobastank",
+    "year": 2003,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 748500,
+    "level": 2
+  },
+  {
+    "title": "Beautiful",
+    "artist": "Christina Aguilera",
+    "year": 2002,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 747000,
+    "level": 2
+  },
+  {
+    "title": "Dirrty",
+    "artist": "Christina Aguilera",
+    "year": 2002,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 745500,
+    "level": 2
+  },
+  {
+    "title": "Hung Up",
+    "artist": "Madonna",
+    "year": 2005,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 744000,
+    "level": 2
+  },
+  {
+    "title": "Get the Party Started",
+    "artist": "P!nk",
+    "year": 2001,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 742500,
+    "level": 2
+  },
+  {
+    "title": "So What",
+    "artist": "P!nk",
+    "year": 2008,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 831000,
+    "level": 1
+  },
+  {
+    "title": "Hollaback Girl",
+    "artist": "Gwen Stefani",
+    "year": 2004,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 829500,
+    "level": 1
+  },
+  {
+    "title": "What You Waiting For?",
+    "artist": "Gwen Stefani",
+    "year": 2004,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 738000,
+    "level": 2
+  },
+  {
+    "title": "Hot N Cold",
+    "artist": "Katy Perry",
+    "year": 2008,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 826500,
+    "level": 1
+  },
+  {
+    "title": "I Kissed a Girl",
+    "artist": "Katy Perry",
+    "year": 2008,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 825000,
+    "level": 1
+  },
+  {
+    "title": "Dirty Little Secret",
+    "artist": "The All-American Rejects",
+    "year": 2005,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 733500,
+    "level": 2
+  },
+  {
+    "title": "Gives You Hell",
+    "artist": "The All-American Rejects",
+    "year": 2008,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 732000,
+    "level": 2
+  },
+  {
+    "title": "Bad Day",
+    "artist": "Daniel Powter",
+    "year": 2005,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 730500,
+    "level": 2
+  },
+  {
+    "title": "Hey, Soul Sister",
+    "artist": "Train",
+    "year": 2009,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 819000,
+    "level": 1
+  },
+  {
+    "title": "Grace Kelly",
+    "artist": "MIKA",
+    "year": 2007,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 727500,
+    "level": 2
+  },
+  {
+    "title": "Dragostea Din Tei",
+    "artist": "O-Zone",
+    "year": 2003,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 726000,
+    "level": 2
+  },
+  {
+    "title": "One More Time",
+    "artist": "Daft Punk",
+    "year": 2000,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 814500,
+    "level": 1
+  },
+  {
+    "title": "Harder, Better, Faster, Stronger",
+    "artist": "Daft Punk",
+    "year": 2001,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 813000,
+    "level": 1
+  },
+  {
+    "title": "Clint Eastwood",
+    "artist": "Gorillaz",
+    "year": 2001,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 721500,
+    "level": 2
+  },
+  {
+    "title": "Feel Good Inc.",
+    "artist": "Gorillaz",
+    "year": 2005,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 810000,
+    "level": 1
+  },
+  {
+    "title": "Satisfaction",
+    "artist": "Benny Benassi",
+    "year": 2002,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 718500,
+    "level": 2
+  },
+  {
+    "title": "When Love Takes Over",
+    "artist": "David Guetta",
+    "year": 2009,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 717000,
+    "level": 2
+  },
+  {
+    "title": "Memories",
+    "artist": "David Guetta",
+    "year": 2009,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 715500,
+    "level": 2
+  },
+  {
+    "title": "Lonely",
+    "artist": "Akon",
+    "year": 2004,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 714000,
+    "level": 2
+  },
+  {
+    "title": "Smack That",
+    "artist": "Akon",
+    "year": 2006,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 712500,
+    "level": 2
+  },
+  {
+    "title": "Say My Name",
+    "artist": "Destiny's Child",
+    "year": 1999,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 711000,
+    "level": 2
+  },
+  {
+    "title": "Survivor",
+    "artist": "Destiny's Child",
+    "year": 2001,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 709500,
+    "level": 2
+  },
+  {
+    "title": "Independent Women, Pt. 1",
+    "artist": "Destiny's Child",
+    "year": 2000,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 708000,
+    "level": 2
+  },
+  {
+    "title": "Bootylicious",
+    "artist": "Destiny's Child",
+    "year": 2001,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 706500,
+    "level": 2
+  },
+  {
+    "title": "Fallin'",
+    "artist": "Alicia Keys",
+    "year": 2001,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 765000,
+    "level": 2
+  },
+  {
+    "title": "If I Ain't Got You",
+    "artist": "Alicia Keys",
+    "year": 2003,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 763500,
+    "level": 2
+  },
+  {
+    "title": "No One",
+    "artist": "Alicia Keys",
+    "year": 2007,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 852000,
+    "level": 1
+  },
+  {
+    "title": "Ordinary People",
+    "artist": "John Legend",
+    "year": 2004,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 760500,
+    "level": 2
+  },
+  {
+    "title": "Be Without You",
+    "artist": "Mary J. Blige",
+    "year": 2005,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 757500,
+    "level": 2
+  },
+  {
+    "title": "Family Affair",
+    "artist": "Mary J. Blige",
+    "year": 2001,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 756000,
+    "level": 2
+  },
+  {
+    "title": "So Sick",
+    "artist": "Ne-Yo",
+    "year": 2006,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 754500,
+    "level": 2
+  },
+  {
+    "title": "Because of You",
+    "artist": "Ne-Yo",
+    "year": 2007,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 753000,
+    "level": 2
+  },
+  {
+    "title": "Closer",
+    "artist": "Ne-Yo",
+    "year": 2008,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 751500,
+    "level": 2
+  },
+  {
+    "title": "Float On",
+    "artist": "Modest Mouse",
+    "year": 2004,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 675000,
+    "level": 3
+  },
+  {
+    "title": "Radioactive",
+    "artist": "Imagine Dragons",
+    "year": 2012,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 912000,
+    "level": 0
+  },
+  {
+    "title": "Demons",
+    "artist": "Imagine Dragons",
+    "year": 2012,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 835500,
+    "level": 1
+  },
+  {
+    "title": "It's Time",
+    "artist": "Imagine Dragons",
+    "year": 2012,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 666000,
+    "level": 3
+  },
+  {
+    "title": "Warriors",
+    "artist": "Imagine Dragons",
+    "year": 2014,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 664500,
+    "level": 3
+  },
+  {
+    "title": "Little Talks",
+    "artist": "Of Monsters and Men",
+    "year": 2011,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 738000,
+    "level": 2
+  },
+  {
+    "title": "Ho Hey",
+    "artist": "The Lumineers",
+    "year": 2012,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 826500,
+    "level": 1
+  },
+  {
+    "title": "Riptide",
+    "artist": "Vance Joy",
+    "year": 2013,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 825000,
+    "level": 1
+  },
+  {
+    "title": "Take Me to Church",
+    "artist": "Hozier",
+    "year": 2013,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 823500,
+    "level": 1
+  },
+  {
+    "title": "Shut Up and Dance",
+    "artist": "WALK THE MOON",
+    "year": 2014,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 822000,
+    "level": 1
+  },
+  {
+    "title": "Pumped Up Kicks",
+    "artist": "Foster the People",
+    "year": 2010,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 820500,
+    "level": 1
+  },
+  {
+    "title": "Sail",
+    "artist": "AWOLNATION",
+    "year": 2010,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 729000,
+    "level": 2
+  },
+  {
+    "title": "Little Lion Man",
+    "artist": "Mumford & Sons",
+    "year": 2009,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 727500,
+    "level": 2
+  },
+  {
+    "title": "I Will Wait",
+    "artist": "Mumford & Sons",
+    "year": 2012,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 726000,
+    "level": 2
+  },
+  {
+    "title": "Ain't No Rest for the Wicked",
+    "artist": "Cage The Elephant",
+    "year": 2008,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 723000,
+    "level": 2
+  },
+  {
+    "title": "Cigarette Daydreams",
+    "artist": "Cage The Elephant",
+    "year": 2013,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 721500,
+    "level": 2
+  },
+  {
+    "title": "Do I Wanna Know?",
+    "artist": "Arctic Monkeys",
+    "year": 2013,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 810000,
+    "level": 1
+  },
+  {
+    "title": "R U Mine?",
+    "artist": "Arctic Monkeys",
+    "year": 2012,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 718500,
+    "level": 2
+  },
+  {
+    "title": "Why'd You Only Call Me When You're High?",
+    "artist": "Arctic Monkeys",
+    "year": 2013,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 715500,
+    "level": 2
+  },
+  {
+    "title": "Arabella",
+    "artist": "Arctic Monkeys",
+    "year": 2013,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 714000,
+    "level": 2
+  },
+  {
+    "title": "Feel It Still",
+    "artist": "Portugal. The Man",
+    "year": 2017,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 802500,
+    "level": 1
+  },
+  {
+    "title": "Lost on You",
+    "artist": "LP",
+    "year": 2015,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 636000,
+    "level": 3
+  },
+  {
+    "title": "I Write Sins Not Tragedies",
+    "artist": "Panic! At The Disco",
+    "year": 2005,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 708000,
+    "level": 2
+  },
+  {
+    "title": "Ride",
+    "artist": "twenty one pilots",
+    "year": 2015,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 763500,
+    "level": 2
+  },
+  {
+    "title": "Car Radio",
+    "artist": "twenty one pilots",
+    "year": 2013,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 687000,
+    "level": 3
+  },
+  {
+    "title": "Sweater Weather",
+    "artist": "The Neighbourhood",
+    "year": 2012,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 850500,
+    "level": 1
+  },
+  {
+    "title": "Daddy Issues",
+    "artist": "The Neighbourhood",
+    "year": 2015,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 759000,
+    "level": 2
+  },
+  {
+    "title": "Pompeii",
+    "artist": "Bastille",
+    "year": 2013,
+    "genre": "Alternative",
+    "region": "west",
+    "rank": 847500,
+    "level": 1
+  },
+  {
+    "title": "Supermassive Black Hole",
+    "artist": "Muse",
+    "year": 2006,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 756000,
+    "level": 2
+  },
+  {
+    "title": "Knights of Cydonia",
+    "artist": "Muse",
+    "year": 2006,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 679500,
+    "level": 3
+  },
+  {
+    "title": "Starlight",
+    "artist": "Muse",
+    "year": 2006,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 678000,
+    "level": 3
+  },
+  {
+    "title": "Uprising",
+    "artist": "Muse",
+    "year": 2009,
+    "genre": "Rock",
+    "region": "west",
+    "rank": 676500,
+    "level": 3
+  },
+  {
+    "title": "Hold On, We're Going Home",
+    "artist": "Drake",
+    "year": 2013,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 745500,
+    "level": 2
+  },
+  {
+    "title": "Started from the Bottom",
+    "artist": "Drake",
+    "year": 2013,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 744000,
+    "level": 2
+  },
+  {
+    "title": "In My Feelings",
+    "artist": "Drake",
+    "year": 2018,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 832500,
+    "level": 1
+  },
+  {
+    "title": "Passionfruit",
+    "artist": "Drake",
+    "year": 2017,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 739500,
+    "level": 2
+  },
+  {
+    "title": "HUMBLE.",
+    "artist": "Kendrick Lamar",
+    "year": 2017,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 903000,
+    "level": 0
+  },
+  {
+    "title": "DNA.",
+    "artist": "Kendrick Lamar",
+    "year": 2017,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 826500,
+    "level": 1
+  },
+  {
+    "title": "Swimming Pools (Drank)",
+    "artist": "Kendrick Lamar",
+    "year": 2012,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 735000,
+    "level": 2
+  },
+  {
+    "title": "Alright",
+    "artist": "Kendrick Lamar",
+    "year": 2015,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 733500,
+    "level": 2
+  },
+  {
+    "title": "Money Trees",
+    "artist": "Kendrick Lamar",
+    "year": 2012,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 657000,
+    "level": 3
+  },
+  {
+    "title": "Bad and Boujee",
+    "artist": "Migos",
+    "year": 2016,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 820500,
+    "level": 1
+  },
+  {
+    "title": "SICKO MODE",
+    "artist": "Travis Scott",
+    "year": 2018,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 894000,
+    "level": 0
+  },
+  {
+    "title": "goosebumps",
+    "artist": "Travis Scott",
+    "year": 2016,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 817500,
+    "level": 1
+  },
+  {
+    "title": "HIGHEST IN THE ROOM",
+    "artist": "Travis Scott",
+    "year": 2019,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 726000,
+    "level": 2
+  },
+  {
+    "title": "Congratulations",
+    "artist": "Post Malone",
+    "year": 2016,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 723000,
+    "level": 2
+  },
+  {
+    "title": "Psycho",
+    "artist": "Post Malone",
+    "year": 2018,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 721500,
+    "level": 2
+  },
+  {
+    "title": "White Iverson",
+    "artist": "Post Malone",
+    "year": 2015,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 720000,
+    "level": 2
+  },
+  {
+    "title": "Lucid Dreams",
+    "artist": "Juice WRLD",
+    "year": 2018,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 808500,
+    "level": 1
+  },
+  {
+    "title": "All Girls Are the Same",
+    "artist": "Juice WRLD",
+    "year": 2018,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 642000,
+    "level": 3
+  },
+  {
+    "title": "Mask Off",
+    "artist": "Future",
+    "year": 2017,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 805500,
+    "level": 1
+  },
+  {
+    "title": "XO TOUR Llif3",
+    "artist": "Lil Uzi Vert",
+    "year": 2017,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 804000,
+    "level": 1
+  },
+  {
+    "title": "Panda",
+    "artist": "Desiigner",
+    "year": 2015,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 711000,
+    "level": 2
+  },
+  {
+    "title": "Black Beatles",
+    "artist": "Rae Sremmurd",
+    "year": 2016,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 709500,
+    "level": 2
+  },
+  {
+    "title": "No Flex Zone",
+    "artist": "Rae Sremmurd",
+    "year": 2013,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 633000,
+    "level": 3
+  },
+  {
+    "title": "Not Afraid",
+    "artist": "Eminem",
+    "year": 2010,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 706500,
+    "level": 2
+  },
+  {
+    "title": "Love the Way You Lie",
+    "artist": "Eminem",
+    "year": 2010,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 855000,
+    "level": 1
+  },
+  {
+    "title": "Monster",
+    "artist": "Eminem",
+    "year": 2013,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 763500,
+    "level": 2
+  },
+  {
+    "title": "Rap God",
+    "artist": "Eminem",
+    "year": 2013,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 762000,
+    "level": 2
+  },
+  {
+    "title": "Anaconda",
+    "artist": "Nicki Minaj",
+    "year": 2014,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 760500,
+    "level": 2
+  },
+  {
+    "title": "Super Bass",
+    "artist": "Nicki Minaj",
+    "year": 2010,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 759000,
+    "level": 2
+  },
+  {
+    "title": "Starships",
+    "artist": "Nicki Minaj",
+    "year": 2012,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 757500,
+    "level": 2
+  },
+  {
+    "title": "Bodak Yellow",
+    "artist": "Cardi B",
+    "year": 2017,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 846000,
+    "level": 1
+  },
+  {
+    "title": "I Like It",
+    "artist": "Cardi B",
+    "year": 2018,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 844500,
+    "level": 1
+  },
+  {
+    "title": "Mo Bamba",
+    "artist": "Sheck Wes",
+    "year": 2017,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 753000,
+    "level": 2
+  },
+  {
+    "title": "Gucci Gang",
+    "artist": "Lil Pump",
+    "year": 2017,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 751500,
+    "level": 2
+  },
+  {
+    "title": "Look At Me!",
+    "artist": "XXXTENTACION",
+    "year": 2017,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 750000,
+    "level": 2
+  },
+  {
+    "title": "SAD!",
+    "artist": "XXXTENTACION",
+    "year": 2018,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 838500,
+    "level": 1
+  },
+  {
+    "title": "Moonlight",
+    "artist": "XXXTENTACION",
+    "year": 2018,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 672000,
+    "level": 3
+  },
+  {
+    "title": "Trap Queen",
+    "artist": "Fetty Wap",
+    "year": 2014,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 745500,
+    "level": 2
+  },
+  {
+    "title": "Power",
+    "artist": "Kanye West",
+    "year": 2010,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 744000,
+    "level": 2
+  },
+  {
+    "title": "Runaway",
+    "artist": "Kanye West",
+    "year": 2010,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 742500,
+    "level": 2
+  },
+  {
+    "title": "Black Skinhead",
+    "artist": "Kanye West",
+    "year": 2013,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 666000,
+    "level": 3
+  },
+  {
+    "title": "Bound 2",
+    "artist": "Kanye West",
+    "year": 2013,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 664500,
+    "level": 3
+  },
+  {
+    "title": "Redbone",
+    "artist": "Childish Gambino",
+    "year": 2016,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 738000,
+    "level": 2
+  },
+  {
+    "title": "This Is America",
+    "artist": "Childish Gambino",
+    "year": 2018,
+    "genre": "Hip-Hop/Rap",
+    "region": "west",
+    "rank": 826500,
+    "level": 1
+  },
+  {
+    "title": "Love on Top",
+    "artist": "Beyoncé",
+    "year": 2011,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 735000,
+    "level": 2
+  },
+  {
+    "title": "Drunk in Love",
+    "artist": "Beyoncé",
+    "year": 2013,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 733500,
+    "level": 2
+  },
+  {
+    "title": "Formation",
+    "artist": "Beyoncé",
+    "year": 2016,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 732000,
+    "level": 2
+  },
+  {
+    "title": "Work",
+    "artist": "Rihanna",
+    "year": 2016,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 817500,
+    "level": 1
+  },
+  {
+    "title": "We Found Love",
+    "artist": "Rihanna",
+    "year": 2011,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 816000,
+    "level": 1
+  },
+  {
+    "title": "Diamonds",
+    "artist": "Rihanna",
+    "year": 2012,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 814500,
+    "level": 1
+  },
+  {
+    "title": "Stay",
+    "artist": "Rihanna",
+    "year": 2012,
+    "genre": "Pop",
+    "region": "west",
+    "rank": 723000,
+    "level": 2
+  },
+  {
+    "title": "Best Part",
+    "artist": "Daniel Caesar",
+    "year": 2017,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 721500,
+    "level": 2
+  },
+  {
+    "title": "The Weekend",
+    "artist": "SZA",
+    "year": 2017,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 718500,
+    "level": 2
+  },
+  {
+    "title": "Love Galore",
+    "artist": "SZA",
+    "year": 2017,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 642000,
+    "level": 3
+  },
+  {
+    "title": "Talk",
+    "artist": "Khalid",
+    "year": 2019,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 712500,
+    "level": 2
+  },
+  {
+    "title": "Earned It",
+    "artist": "The Weeknd",
+    "year": 2014,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 709500,
+    "level": 2
+  },
+  {
+    "title": "Thinkin Bout You",
+    "artist": "Frank Ocean",
+    "year": 2012,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 762000,
+    "level": 2
+  },
+  {
+    "title": "Lost",
+    "artist": "Frank Ocean",
+    "year": 2012,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 685500,
+    "level": 3
+  },
+  {
+    "title": "Nights",
+    "artist": "Frank Ocean",
+    "year": 2016,
+    "genre": "R&B/Soul",
+    "region": "west",
+    "rank": 684000,
+    "level": 3
+  },
+  {
+    "title": "Wake Me Up",
+    "artist": "Avicii",
+    "year": 2013,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 844500,
+    "level": 1
+  },
+  {
+    "title": "Levels",
+    "artist": "Avicii",
+    "year": 2011,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 843000,
+    "level": 1
+  },
+  {
+    "title": "Hey Brother",
+    "artist": "Avicii",
+    "year": 2013,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 751500,
+    "level": 2
+  },
+  {
+    "title": "Titanium",
+    "artist": "David Guetta",
+    "year": 2011,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 838500,
+    "level": 1
+  },
+  {
+    "title": "Animals",
+    "artist": "Martin Garrix",
+    "year": 2013,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 747000,
+    "level": 2
+  },
+  {
+    "title": "Clarity",
+    "artist": "Zedd",
+    "year": 2012,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 744000,
+    "level": 2
+  },
+  {
+    "title": "Stay",
+    "artist": "Zedd",
+    "year": 2017,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 742500,
+    "level": 2
+  },
+  {
+    "title": "Cold Water",
+    "artist": "Major Lazer",
+    "year": 2016,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 739500,
+    "level": 2
+  },
+  {
+    "title": "Faded",
+    "artist": "Alan Walker",
+    "year": 2015,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 828000,
+    "level": 1
+  },
+  {
+    "title": "Alone",
+    "artist": "Alan Walker",
+    "year": 2016,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 736500,
+    "level": 2
+  },
+  {
+    "title": "Don't Let Me Down",
+    "artist": "The Chainsmokers",
+    "year": 2016,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 823500,
+    "level": 1
+  },
+  {
+    "title": "Something Just Like This",
+    "artist": "The Chainsmokers",
+    "year": 2017,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 822000,
+    "level": 1
+  },
+  {
+    "title": "Roses",
+    "artist": "The Chainsmokers",
+    "year": 2015,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 730500,
+    "level": 2
+  },
+  {
+    "title": "Alone",
+    "artist": "Marshmello",
+    "year": 2016,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 726000,
+    "level": 2
+  },
+  {
+    "title": "Where Are Ü Now",
+    "artist": "Jack Ü",
+    "year": 2015,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 724500,
+    "level": 2
+  },
+  {
+    "title": "Summer",
+    "artist": "Calvin Harris",
+    "year": 2014,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 723000,
+    "level": 2
+  },
+  {
+    "title": "Feel So Close",
+    "artist": "Calvin Harris",
+    "year": 2011,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 721500,
+    "level": 2
+  },
+  {
+    "title": "Scary Monsters and Nice Sprites",
+    "artist": "Skrillex",
+    "year": 2010,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 715500,
+    "level": 2
+  },
+  {
+    "title": "Bangarang",
+    "artist": "Skrillex",
+    "year": 2011,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 639000,
+    "level": 3
+  },
+  {
+    "title": "Strobe",
+    "artist": "deadmau5",
+    "year": 2009,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 637500,
+    "level": 3
+  },
+  {
+    "title": "Ghosts 'n' Stuff",
+    "artist": "deadmau5",
+    "year": 2008,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 636000,
+    "level": 3
+  },
+  {
+    "title": "Language",
+    "artist": "Porter Robinson",
+    "year": 2012,
+    "genre": "Electronic",
+    "region": "west",
+    "rank": 634500,
+    "level": 3
+  },
+  {
+    "title": "Échame La Culpa",
+    "artist": "Luis Fonsi",
+    "year": 2017,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 765000,
+    "level": 2
+  },
+  {
+    "title": "Mi Gente",
+    "artist": "J Balvin",
+    "year": 2017,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 853500,
+    "level": 1
+  },
+  {
+    "title": "Ginza",
+    "artist": "J Balvin",
+    "year": 2015,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 762000,
+    "level": 2
+  },
+  {
+    "title": "Ay Vamos",
+    "artist": "J Balvin",
+    "year": 2014,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 685500,
+    "level": 3
+  },
+  {
+    "title": "Bailando",
+    "artist": "Enrique Iglesias",
+    "year": 2014,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 847500,
+    "level": 1
+  },
+  {
+    "title": "Danza Kuduro",
+    "artist": "Don Omar",
+    "year": 2010,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 846000,
+    "level": 1
+  },
+  {
+    "title": "Mayores",
+    "artist": "Becky G",
+    "year": 2017,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 754500,
+    "level": 2
+  },
+  {
+    "title": "Sin Pijama",
+    "artist": "Becky G",
+    "year": 2018,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 753000,
+    "level": 2
+  },
+  {
+    "title": "Con Calma",
+    "artist": "Daddy Yankee",
+    "year": 2019,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 841500,
+    "level": 1
+  },
+  {
+    "title": "El Perdón",
+    "artist": "Nicky Jam",
+    "year": 2015,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 750000,
+    "level": 2
+  },
+  {
+    "title": "Hasta el Amanecer",
+    "artist": "Nicky Jam",
+    "year": 2016,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 748500,
+    "level": 2
+  },
+  {
+    "title": "Felices los 4",
+    "artist": "Maluma",
+    "year": 2017,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 747000,
+    "level": 2
+  },
+  {
+    "title": "Borro Cassette",
+    "artist": "Maluma",
+    "year": 2015,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 670500,
+    "level": 3
+  },
+  {
+    "title": "Tusa",
+    "artist": "KAROL G",
+    "year": 2019,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 834000,
+    "level": 1
+  },
+  {
+    "title": "Calma",
+    "artist": "Pedro Capó",
+    "year": 2018,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 742500,
+    "level": 2
+  },
+  {
+    "title": "Sofia",
+    "artist": "Alvaro Soler",
+    "year": 2015,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 741000,
+    "level": 2
+  },
+  {
+    "title": "La Bicicleta",
+    "artist": "Carlos Vives",
+    "year": 2016,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 739500,
+    "level": 2
+  },
+  {
+    "title": "Propuesta Indecente",
+    "artist": "Romeo Santos",
+    "year": 2013,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 663000,
+    "level": 3
+  },
+  {
+    "title": "Vente Pa' Ca",
+    "artist": "Ricky Martin",
+    "year": 2016,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 661500,
+    "level": 3
+  },
+  {
+    "title": "Yonaguni",
+    "artist": "Bad Bunny",
+    "year": 2021,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 733500,
+    "level": 2
+  },
+  {
+    "title": "Callaita",
+    "artist": "Bad Bunny",
+    "year": 2019,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 729000,
+    "level": 2
+  },
+  {
+    "title": "Moscow Mule",
+    "artist": "Bad Bunny",
+    "year": 2022,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 727500,
+    "level": 2
+  },
+  {
+    "title": "Ojitos Lindos",
+    "artist": "Bad Bunny",
+    "year": 2022,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 726000,
+    "level": 2
+  },
+  {
+    "title": "Efecto",
+    "artist": "Bad Bunny",
+    "year": 2022,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 649500,
+    "level": 3
+  },
+  {
+    "title": "Pepas",
+    "artist": "Farruko",
+    "year": 2021,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 808500,
+    "level": 1
+  },
+  {
+    "title": "Gata Only",
+    "artist": "FloyyMenor",
+    "year": 2024,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 717000,
+    "level": 2
+  },
+  {
+    "title": "Malamente",
+    "artist": "ROSALÍA",
+    "year": 2018,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 714000,
+    "level": 2
+  },
+  {
+    "title": "Con Altura",
+    "artist": "ROSALÍA",
+    "year": 2019,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 712500,
+    "level": 2
+  },
+  {
+    "title": "Hawái",
+    "artist": "Maluma",
+    "year": 2020,
+    "genre": "Latin",
+    "region": "west",
+    "rank": 711000,
+    "level": 2
+  },
+  {
+    "title": "Anugerah Terindah Yang Pernah Kumiliki",
+    "artist": "Sheila On 7",
+    "year": 1999,
+    "genre": "Pop",
+    "region": "indo",
+    "rank": 708000,
+    "level": 2
+  },
+  {
+    "title": "Lapang Dada",
+    "artist": "Sheila On 7",
+    "year": 2008,
+    "genre": "Pop",
+    "region": "indo",
+    "rank": 690000,
+    "level": 3
+  },
+  {
+    "title": "Kasih Tak Sampai",
+    "artist": "Padi",
+    "year": 1999,
+    "genre": "Rock",
+    "region": "indo",
+    "rank": 762000,
+    "level": 2
+  },
+  {
+    "title": "Sandaran Hati",
+    "artist": "Letto",
+    "year": 2006,
+    "genre": "Pop",
+    "region": "indo",
+    "rank": 760500,
+    "level": 2
+  },
+  {
+    "title": "Ruang Rindu",
+    "artist": "Letto",
+    "year": 2007,
+    "genre": "Pop",
+    "region": "indo",
+    "rank": 759000,
+    "level": 2
+  },
+  {
+    "title": "Sempurna",
+    "artist": "Andra and The Backbone",
+    "year": 2008,
+    "genre": "Rock",
+    "region": "indo",
+    "rank": 757500,
+    "level": 2
+  },
+  {
+    "title": "Cinta Ini Membunuhku",
+    "artist": "D'MASIV",
+    "year": 2009,
+    "genre": "Rock",
+    "region": "indo",
+    "rank": 756000,
+    "level": 2
+  },
+  {
+    "title": "Separuh Aku",
+    "artist": "NOAH",
+    "year": 2012,
+    "genre": "Pop",
+    "region": "indo",
+    "rank": 754500,
+    "level": 2
+  },
+  {
+    "title": "Resah",
+    "artist": "Payung Teduh",
+    "year": 2012,
+    "genre": "Alternative",
+    "region": "indo",
+    "rank": 678000,
+    "level": 3
+  },
+  {
+    "title": "Tutur Batin",
+    "artist": "Yura Yunita",
+    "year": 2014,
+    "genre": "Pop",
+    "region": "indo",
+    "rank": 675000,
+    "level": 3
+  },
+  {
+    "title": "Surat Cinta Untuk Starla",
+    "artist": "Virgoun",
+    "year": 2014,
+    "genre": "Pop",
+    "region": "indo",
+    "rank": 748500,
+    "level": 2
+  },
+  {
+    "title": "Bukti",
+    "artist": "Virgoun",
+    "year": 2016,
+    "genre": "Pop",
+    "region": "indo",
+    "rank": 747000,
+    "level": 2
+  },
+  {
+    "title": "Dat $tick",
+    "artist": "Rich Brian",
+    "year": 2016,
+    "genre": "Hip-Hop/Rap",
+    "region": "indo",
+    "rank": 745500,
+    "level": 2
+  },
+  {
+    "title": "Sayang",
+    "artist": "Via Vallen",
+    "year": 2017,
+    "genre": "Pop",
+    "region": "indo",
+    "rank": 744000,
+    "level": 2
+  },
+  {
+    "title": "Terlalu Lama Sendiri",
+    "artist": "Kunto Aji",
+    "year": 2018,
+    "genre": "Pop",
+    "region": "indo",
+    "rank": 742500,
+    "level": 2
+  },
+  {
+    "title": "Rehat",
+    "artist": "Kunto Aji",
+    "year": 2018,
+    "genre": "Pop",
+    "region": "indo",
+    "rank": 666000,
+    "level": 3
+  },
+  {
+    "title": "Cinta Luar Biasa",
+    "artist": "Andmesh",
+    "year": 2018,
+    "genre": "Pop",
+    "region": "indo",
+    "rank": 739500,
+    "level": 2
+  },
+  {
+    "title": "Lagi Syantik",
+    "artist": "Siti Badriah",
+    "year": 2018,
+    "genre": "Pop",
+    "region": "indo",
+    "rank": 828000,
+    "level": 1
+  },
+  {
+    "title": "Hanya Rindu",
+    "artist": "Andmesh",
+    "year": 2019,
+    "genre": "Pop",
+    "region": "indo",
+    "rank": 736500,
+    "level": 2
+  },
+  {
+    "title": "Evaluasi",
+    "artist": "Hindia",
+    "year": 2019,
+    "genre": "Alternative",
+    "region": "indo",
+    "rank": 733500,
+    "level": 2
+  },
+  {
+    "title": "Membasuh",
+    "artist": "Hindia",
+    "year": 2019,
+    "genre": "Alternative",
+    "region": "indo",
+    "rank": 657000,
+    "level": 3
+  },
+  {
+    "title": "Bertaut",
+    "artist": "Nadin Amizah",
+    "year": 2020,
+    "genre": "Pop",
+    "region": "indo",
+    "rank": 729000,
+    "level": 2
+  },
+  {
+    "title": "Sorai",
+    "artist": "Nadin Amizah",
+    "year": 2020,
+    "genre": "Pop",
+    "region": "indo",
+    "rank": 652500,
+    "level": 3
+  },
+  {
+    "title": "Sisa Rasa",
+    "artist": "Mahalini",
+    "year": 2022,
+    "genre": "Pop",
+    "region": "indo",
+    "rank": 816000,
+    "level": 1
+  },
+  {
+    "title": "Online",
+    "artist": "Saykoji",
+    "year": 2006,
+    "genre": "Hip-Hop/Rap",
+    "region": "indo",
+    "rank": 648000,
+    "level": 3
   }
 ]

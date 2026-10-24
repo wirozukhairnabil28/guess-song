@@ -19,19 +19,42 @@ HOST = os.environ.get("HOST", "127.0.0.1")
 PORT = int(os.environ.get("PORT", "8000"))
 
 # Muat catalog dengan error yang jelas kalau file tidak ada
+def _song_key(song):
+    return re.sub(r"[^a-z0-9]", "", (song["artist"] + song["title"]).casefold())
+
+
+def _level_from_rank(rank):
+    """Search-catalog songs have no level; derive it from the same rank bands catalog.json uses."""
+    if rank >= 896000:
+        return 0
+    if rank >= 809000:
+        return 1
+    if rank >= 718000:
+        return 2
+    return 3
+
+
 def _load_catalog():
     catalog_path = ROOT / "catalog.json"
     search_path = ROOT / "catalog-search.json"
     if not catalog_path.exists():
         raise FileNotFoundError(f"File tidak ditemukan: {catalog_path}")
     songs = json.loads(catalog_path.read_text(encoding="utf-8"))
+    seen = {_song_key(song) for song in songs}
     if search_path.exists():
         for song in json.loads(search_path.read_text(encoding="utf-8")):
-            song["id"] = "search:" + re.sub(r"[^a-z0-9]", "", (song["artist"] + song["title"]).casefold())
+            key = _song_key(song)
+            if key in seen:  # lagu yang sama sudah ada di catalog.json -> jangan dobel
+                continue
+            seen.add(key)
+            song["id"] = "search:" + key
+            if song.get("level") is None:
+                song["level"] = _level_from_rank(song["rank"])
             songs.append(song)
     else:
-        print(f"[PERINGATAN] catalog-search.json tidak ditemukan, hanya catalog.json yang dimuat.")
+        print("[PERINGATAN] catalog-search.json tidak ditemukan, hanya catalog.json yang dimuat.")
     return songs
+
 
 SONGS = _load_catalog()
 SONGS_BY_ID = {song["id"]: song for song in SONGS}
@@ -62,6 +85,7 @@ def curated_songs(region, genre, year):
             "genre": song["genre"],
             "year": song["year"],
             "downloads": song["rank"],
+            "level": song.get("level"),
             "deepCut": bool(song.get("deepCut")),
             "trackUrl": f"https://www.deezer.com/track/{song['id']}" if song["id"].isdigit() else f"https://www.deezer.com/search/{quote(song['artist'] + ' ' + song['title'])}",
         }

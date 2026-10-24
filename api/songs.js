@@ -1,5 +1,4 @@
-const path = require('path');
-const fs = require('fs');
+const { loadSongs, yearMatches } = require('./_catalog');
 
 module.exports = (req, res) => {
   res.setHeader('Content-Type', 'application/json; charset=utf-8');
@@ -7,25 +6,23 @@ module.exports = (req, res) => {
   res.setHeader('Cache-Control', 's-maxage=60, stale-while-revalidate');
 
   try {
-    const catalogPath = path.join(process.cwd(), 'catalog.json');
-    const songs = JSON.parse(fs.readFileSync(catalogPath, 'utf8'));
-
     const { region = 'all', genre = 'all', year = 'all' } = req.query;
-
-    const filtered = songs.filter(song => {
-      const matchRegion = region === 'all' || song.region === region;
-      const matchGenre = genre === 'all' || song.genre === genre;
-      let matchYear = true;
-      if (year === 'before-2000') matchYear = song.year < 2000;
-      else if (year === '2020-now') matchYear = song.year >= 2020;
-      else if (year !== 'all') {
-        const [start, end] = year.split('-').map(Number);
-        matchYear = song.year >= start && song.year <= end;
-      }
-      return matchRegion && matchGenre && matchYear;
-    });
-
-    return res.status(200).json({ tracks: filtered });
+    const tracks = loadSongs()
+      .filter((s) => (region === 'all' || s.region === region) && (genre === 'all' || s.genre === genre) && yearMatches(s.year, year))
+      .map((s) => ({
+        id: s.id,
+        title: s.title,
+        artist: s.artist,
+        region: s.region,
+        genre: s.genre,
+        year: s.year,
+        downloads: s.rank,
+        level: s.level,
+        deepCut: !!s.deepCut,
+        trackUrl: /^\d+$/.test(s.id) ? `https://www.deezer.com/track/${s.id}` : `https://www.deezer.com/search/${encodeURIComponent(s.artist + ' ' + s.title)}`,
+      }))
+      .sort((a, b) => b.downloads - a.downloads);
+    return res.status(200).json({ tracks });
   } catch (err) {
     return res.status(500).json({ error: 'failed-to-load-catalog' });
   }
