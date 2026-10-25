@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://guess-song-mu.vercel.app/sitemap.xml
