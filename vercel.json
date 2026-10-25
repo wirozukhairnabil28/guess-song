@@ -1,9 +1,0 @@
-{
-  "rootDirectory": "CUAN TEBAK LAGU",
-  "cleanUrls": true,
-  "functions": {
-    "api/*.js": {
-      "includeFiles": "catalog*.json"
-    }
-  }
-}
